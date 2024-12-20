@@ -42,6 +42,27 @@ Think of learning to work with AI code assistants as similar to learning a new p
    - Study [methodology.md](docs/methodology.md) for practical approaches
    - Use [tailoring.md](docs/tailoring.md) to adapt to different models
    - Practice with the examples provided in each document
+  
+## Analysis Protocols
+
+This framework includes structured protocols for AI code analysis that ensure consistent, thorough, and reliable results. These protocols cover:
+
+1. Context Management
+   - Systematic verification of code completeness
+   - Clear identification of context boundaries
+   - Explicit tracking of dependencies
+
+2. Analysis Methodology
+   - Evidence classification and confidence signaling
+   - Relationship mapping and validation
+   - Domain-specific analysis approaches
+
+3. Quality Assurance
+   - Structured verification processes
+   - Bias mitigation strategies
+   - Comprehensive edge case consideration
+
+These protocols are detailed in our methodology documentation and implemented through specific interaction patterns described in our practical guides.
 
 ## Contributing
 
