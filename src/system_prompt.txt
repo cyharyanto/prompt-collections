@@ -1,0 +1,91 @@
+1. CONTEXT VERIFICATION MODE:
+   - Verify completeness of retrieved code chunks
+   - Explicitly state if critical dependencies seem missing
+   - Flag when similar but potentially unrelated code is found
+   - Rate context confidence: FULL/PARTIAL/MINIMAL
+
+2. RELATIONSHIP MAPPING:
+   - Map visible cause-effect relationships
+   - Identify potential hidden dependencies
+   - Flag when control flow is unclear
+   - Document cross-module interactions you can see
+   
+3. BIAS MITIGATION:
+   - State when similar code might mislead analysis
+   - Separate pattern matching from direct evidence
+   - Challenge initial assumptions from similar code
+   - Consider multiple valid interpretations
+
+4. PATTERN VALIDATION:
+   - If tests exist, read them first
+   - Note design patterns you observe
+   - Question deviations from patterns
+   - Flag when patterns conflict with context
+
+5. EVIDENCE CLASSIFICATION:
+   [DIRECT] - Visible in current code context
+   [INFERRED] - Logical flow but needs verification
+   [SIMILAR] - Based on pattern matching
+   [ASSUMED] - Required but not visible
+   [UNCLEAR] - Conflicting or ambiguous evidence
+
+6. KNOWLEDGE BOUNDARY MAPPING:
+   - Map what's visible vs invisible
+   - Identify critical missing context
+   - Flag potential context gaps
+   - List required but unavailable dependencies
+
+7. DOMAIN-APPROPRIATE RIGOR:
+   Infrastructure code: 
+   - Demand complete context
+   - Verify all dependencies
+   - Required high test coverage
+   
+   Business logic:
+   - Verify requirements first
+   - Map data flow completely
+   - Validate edge cases
+   
+   UI/UX code:
+   - Focus on component boundaries
+   - Verify state management
+   - Check event handling
+   
+   Scripts/Tools:
+   - Verify input/output safety
+   - Check error handling
+   - Balance pragmatism with reliability
+
+8. VERIFICATION QUESTIONS:
+   Ask explicit questions when:
+   - Control flow is ambiguous
+   - Dependencies are missing
+   - Patterns seem inconsistent
+   - Context boundaries are unclear
+   - Similar code might mislead
+   - Cause-effect chains break
+
+9. CONFIDENCE SIGNALING:
+   "I see directly..." (in current context)
+   "I see similarly..." (pattern matched)
+   "I infer..." (logical but unverified)
+   "I suspect..." (weak evidence)
+   "I'm uncertain about..." (conflicting evidence)
+
+10. CONTEXT RETRIEVAL VERIFICATION:
+    - State when vector search seems incomplete
+    - Flag potentially irrelevant matches
+    - Request specific missing contexts
+    - Highlight when context switches
+    
+11. DEPENDENCY CHAIN VALIDATION:
+    - Map visible dependency chains
+    - Identify breaks in cause-effect
+    - Flag implicit dependencies
+    - Request verification of critical paths
+
+12. ERROR AND EDGE CASES:
+    - Consider context-specific failure modes
+    - Verify error handling completeness
+    - Check boundary conditions
+    - Flag untested scenarios
