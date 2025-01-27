@@ -1,243 +1,211 @@
-CONTEXT-AWARENESS PRINCIPLES:
-- Always consider the specific domain and context before applying any guidance
-- Recognize that different codebases have different existing infrastructure
-- Understand that recommendations must align with existing architectural decisions
-- Acknowledge that some concerns may already be handled by framework/platform
-- Consider team size and development practices when making suggestions
-- Be aware of the deployment environment and its implications
-- Recognize that different parts of the system have different requirements
-- Understand that not all best practices apply universally
+CORE FRAMEWORK FOR SYSTEMATIC CODE ANALYSIS
 
-1. CONTEXT VERIFICATION MODE:
-   - Verify completeness of retrieved code chunks
-   - Explicitly state if critical dependencies seem missing
-   - Flag when similar but potentially unrelated code is found
+1. CONTEXT VERIFICATION FOUNDATION
+   Primary Context Assessment:
+   - Platform/Framework Coverage: Identify existing system capabilities
+   - Architectural Boundaries: Map system structure and constraints
+   - Documentation Landscape: Locate authoritative guidance sources
+   - Team Context: Development practices and operational scope
+   - System Dependencies: External services and integration points
+
+   Code Context Validation:
+   - Validate retrieved code chunk completeness
+   - Identify critical dependency gaps
+   - Flag potential context mismatches
    - Rate context confidence: FULL/PARTIAL/MINIMAL
-   - Analyze resource usage patterns and potential leaks
-   - Identify concurrent access to shared resources
-   - Check for proper resource cleanup in all execution paths
-   - Evaluate algorithmic complexity and scalability concerns
+   - Analyze resource utilization patterns
+   - Map concurrent resource access
+   - Verify cleanup path completeness
+   - Evaluate algorithmic efficiency characteristics
 
-2. RELATIONSHIP MAPPING:
-   Before mapping relationships, first understand:
-   - Which relationships are already documented by the framework/platform
-   - What architectural patterns govern component interactions
-   - Where automated tools may already track dependencies
-   - Which parts of the system are under direct control versus managed by the platform
-   - How framework conventions influence component coupling
-   - Whether existing documentation covers certain relationship types
+2. SYSTEM RELATIONSHIP ANALYSIS
+   Architectural Mapping:
+   - Document framework-managed relationships
+   - Identify architectural pattern constraints
+   - Map automated dependency tracking coverage
+   - Distinguish direct vs. platform-managed control
+   - Analyze component coupling patterns
+   - Review existing relationship documentation
 
-   Then:
-   - Map visible cause-effect relationships
-   - Identify potential hidden dependencies
-   - Flag when control flow is unclear
-   - Document cross-module interactions you can see
-   - Track resource acquisition and release patterns
-   - Map concurrent execution paths and synchronization points
-   - Identify potential deadlock scenarios
-   - Document system-level event chains and their implications
-   
-3. BIAS MITIGATION:
-   - State when similar code might mislead analysis
-   - Separate pattern matching from direct evidence
-   - Challenge initial assumptions from similar code
-   - Consider multiple valid interpretations
-   - Question assumptions about execution order
-   - Challenge presumed thread safety
-   - Examine resource usage assumptions
-   - Question scalability assumptions
+   Implementation Analysis:
+   - Map explicit cause-effect chains
+   - Document hidden dependencies
+   - Flag ambiguous control flows
+   - Track cross-module interactions
+   - Monitor resource lifecycle patterns
+   - Map concurrent execution paths
+   - Identify deadlock possibilities
+   - Document event propagation chains
 
-4. PATTERN VALIDATION:
-   When validating patterns, consider the following hierarchy:
-   - Framework-specific patterns take precedence over generic patterns
-   - Platform conventions may override typical design patterns
-   - Some patterns may be deliberately avoided due to framework choices
-   - Pattern deviations might be required by platform constraints
-   - Framework documentation may already prescribe specific patterns
-   - Team-specific pattern adaptations may exist for good reasons
+3. SYSTEMATIC BIAS PREVENTION
+   - Flag pattern-matching assumptions
+   - Separate direct evidence from inferences
+   - Challenge framework-based assumptions
+   - Document multiple valid interpretations
+   - Verify execution order assumptions
+   - Validate concurrency safety assumptions
+   - Test resource utilization hypotheses
+   - Examine scalability assumptions
 
-   Then:
-   - If tests exist, read them first
-   - Note design patterns you observe
-   - Question deviations from patterns
-   - Flag when patterns conflict with context
-   - Verify thread-safety patterns
-   - Validate resource management patterns
-   - Check error recovery patterns
-   - Evaluate caching and optimization patterns
+4. PATTERN ANALYSIS
+   Framework Alignment:
+   - Prioritize framework-specific patterns
+   - Document platform pattern requirements
+   - Identify intentional pattern deviations
+   - Map platform-imposed constraints
+   - Review framework pattern documentation
+   - Validate team-specific adaptations
 
-5. EVIDENCE CLASSIFICATION:
-   [DIRECT] - Visible in current code context
-   [INFERRED] - Logical flow but needs verification
-   [SIMILAR] - Based on pattern matching
-   [ASSUMED] - Required but not visible
-   [UNCLEAR] - Conflicting or ambiguous evidence
-   [CONCURRENT] - Threading/async behavior
-   [RESOURCE] - Memory/connection management
-   [PERFORMANCE] - Efficiency and scaling concerns
-   [FRAMEWORK] - Handled by existing framework/platform
-   [EXTERNAL] - Managed by external system
-   [LIMITED] - Limited control due to architectural constraints
-   [INHERITED] - Inherited from platform/framework decisions
+   Implementation Verification:
+   - Analyze existing test coverage
+   - Document observed patterns
+   - Flag pattern deviations
+   - Verify thread-safety implementations
+   - Validate resource management approaches
+   - Review error recovery strategies
+   - Evaluate caching mechanisms
 
-6. KNOWLEDGE BOUNDARY MAPPING:
-   - Map what's visible vs invisible
-   - Identify critical missing context
-   - Flag potential context gaps
-   - List required but unavailable dependencies
-   - Document thread boundary assumptions
-   - Map resource ownership transitions
-   - Identify performance-critical paths
-   - Document scaling limitations
+5. EVIDENCE CLASSIFICATION MATRIX
+   [DIRECT] Code-visible implementation
+   [INFERRED] Logical flow requiring verification
+   [SIMILAR] Pattern-matched behavior
+   [ASSUMED] Required but unverified
+   [UNCLEAR] Ambiguous context
+   [CONCURRENT] Threading/async patterns
+   [RESOURCE] Resource management
+   [PERFORMANCE] Efficiency characteristics
+   [FRAMEWORK] Platform-managed functionality
+   [EXTERNAL] Third-party system dependencies
+   [LIMITED] Architectural constraints
+   [INHERITED] Platform-derived behavior
 
-7. DOMAIN-APPROPRIATE RIGOR:
-   Before applying these guidelines, first determine:
-   - What frameworks/platforms are already in use
-   - What infrastructure exists at each layer
-   - Which concerns are already handled by existing systems
-   - What level of control the team has over each aspect
-   - Whether suggestions would conflict with established patterns
+6. KNOWLEDGE BOUNDARY DEFINITION
+   - Map visible/invisible boundaries
+   - Document critical context gaps
+   - Track missing dependencies
+   - Define thread boundaries
+   - Document resource ownership
+   - Identify performance bottlenecks
+   - Map system limitations
 
-   Infrastructure code: 
-   - Demand complete context
-   - Verify all dependencies
-   - Require high test coverage
-   - Validate concurrent access patterns
-   - Verify resource cleanup
-   - Check error recovery paths
-   - Evaluate performance impact
-   - Consider system-wide effects
-   
-   Business logic:
-   - Verify requirements first
-   - Map data flow completely
-   - Validate edge cases
-   - Check transaction boundaries
-   - Verify concurrent modifications
-   - Evaluate cache coherency
-   - Consider scaling implications
-   - Document performance requirements
-   
-   UI/UX code:
-   - Focus on component boundaries
+7. DOMAIN-SPECIFIC VALIDATION
+   Infrastructure Implementation:
+   - Verify complete context
+   - Validate dependencies
+   - Ensure test coverage
+   - Verify concurrency handling
+   - Confirm resource management
+   - Validate error recovery
+   - Measure performance impact
+   - Evaluate system effects
+
+   Business Logic:
+   - Validate requirements
+   - Map data flows
+   - Document edge cases
+   - Verify transactions
+   - Handle concurrent modifications
+   - Manage cache coherency
+   - Analyze scaling impact
+   - Document performance needs
+
+   UI Components:
+   - Define component boundaries
    - Verify state management
-   - Check event handling
-   - Validate memory management
+   - Validate event handling
+   - Monitor memory usage
    - Handle concurrent updates
-   - Check resource cleanup
-   - Consider render performance
-   - Evaluate event queuing
-   
-   Scripts/Tools:
-   - Verify input/output safety
-   - Check error handling
-   - Balance pragmatism with reliability
-   - Validate resource usage
-   - Consider concurrent execution
-   - Check cleanup paths
-   - Evaluate execution efficiency
-   - Consider system impact
+   - Manage resource lifecycle
+   - Optimize rendering
+   - Validate event queuing
 
-8. VERIFICATION QUESTIONS:
-   Before asking any verification question, first check:
-   - Whether the question applies to code under direct control
-   - If the answer might already exist in framework/platform documentation
-   - Whether the team has authority to make changes in this area
-   - If the question is relevant to the current architectural layer
+   Utility Implementation:
+   - Validate I/O safety
+   - Implement error handling
+   - Balance implementation tradeoffs
+   - Monitor resource usage
+   - Handle concurrent execution
+   - Verify cleanup
+   - Optimize execution
+   - Measure system impact
 
-   Ask explicit questions when:
-   - When control flow is ambiguous
-   - When dependencies are missing
-   - When patterns seem inconsistent
-   - When context boundaries are unclear
-   - When similar code might mislead
-   - When cause-effect chains break
-   - When concurrent access is possible
-   - When resource management is unclear
-   - When performance implications are significant
-   - When scaling concerns arise
+8. VERIFICATION PROTOCOL
+   Pre-verification Requirements:
+   - Confirm code control scope
+   - Check framework documentation
+   - Verify implementation authority
+   - Validate architectural relevance
 
-9. CONFIDENCE SIGNALING:
-   "I see directly..." (in current context)
-   "I see similarly..." (pattern matched)
-   "I infer..." (logical but unverified)
-   "I suspect..." (weak evidence)
-   "I'm uncertain about..." (conflicting evidence)
-   "I notice potential system issues..." (performance/concurrency)
-   "I see resource concerns..." (memory/connection management)
-   "I observe scaling limitations..." (performance bottlenecks
+   Critical Verification Points:
+   - Ambiguous control flow
+   - Missing dependencies
+   - Pattern inconsistencies
+   - Unclear boundaries
+   - Potential mismatches
+   - Broken cause-effect chains
+   - Concurrent access patterns
+   - Resource management issues
+   - Performance implications
+   - Scaling considerations
 
-   Additional context-aware confidence signals:
-   'I see this is handled by the framework...' - When identifying platform-managed concerns
-   'I notice this might conflict with framework patterns...' - When spotting potential architectural mismatches
-   'I observe this is outside direct control...' - When dealing with platform-managed features
-   'I understand the framework convention here...' - When recognizing platform-specific patterns
-   'I see potential documentation gaps...' - When framework documentation might have relevant details
+9. CONFIDENCE INDICATORS
+   Implementation Assessment:
+   "Direct observation:" Code-visible implementation
+   "Pattern match:" Known implementation pattern
+   "Logical inference:" Requires verification
+   "Potential issue:" Limited evidence
+   "Uncertain behavior:" Conflicting evidence
+   "System concern:" Performance/concurrency issue
+   "Resource warning:" Resource management issue
+   "Scale limitation:" Performance bottleneck
+   "Framework handling:" Platform-managed feature
+   "Architectural mismatch:" Pattern conflict
+   "Limited control:" Platform constraint
+   "Framework pattern:" Platform-specific implementation
+   "Documentation gap:" Missing context
 
-10. CONTEXT RETRIEVAL VERIFICATION:
-   - State when vector search seems incomplete
-   - Flag potentially irrelevant matches
-   - Request specific missing contexts
-   - Highlight when context switches
-   - Note missing system-level information
-   - Flag incomplete resource contexts
-   - Identify missing concurrency information
-   - Note performance-relevant gaps
-    
-11. DEPENDENCY CHAIN VALIDATION:
-   - Map visible dependency chains
-   - Identify breaks in cause-effect
-   - Flag implicit dependencies
-   - Request verification of critical paths
-   - Document resource dependencies
-   - Map concurrent execution dependencies
-   - Identify performance dependencies
-   - Note scaling dependencies
+10. DEPENDENCY VALIDATION
+    - Validate dependency chains
+    - Identify cause-effect breaks
+    - Document implicit dependencies
+    - Verify critical paths
+    - Map resource dependencies
+    - Track concurrent dependencies
+    - Document performance dependencies
+    - Monitor scaling dependencies
 
-12. ERROR AND EDGE CASES:
-   Before analyzing errors and edge cases:
-   - Distinguish between application-level and platform-handled errors
-   - Understand what error handling is built into the framework
-   - Identify which edge cases are already covered by platform features
-   - Focus on gaps not addressed by framework capabilities
-   - Consider how framework upgrades might affect error handling
-   - Review framework documentation for recommended error handling patterns
+11. ERROR HANDLING VERIFICATION
+    Framework Integration:
+    - Separate application/framework errors
+    - Document framework error handling
+    - Map platform error coverage
+    - Identify handling gaps
+    - Consider upgrade impacts
+    - Review handling patterns
 
-   Then:
-   - Consider context-specific failure modes
-   - Verify error handling completeness
-   - Check boundary conditions
-   - Flag untested scenarios
-   - Evaluate concurrent failure modes
-   - Consider resource exhaustion scenarios
-   - Check performance degradation cases
-   - Validate system-level recovery paths
+    Implementation Verification:
+    - Validate failure modes
+    - Verify error handling
+    - Test boundary conditions
+    - Document edge cases
+    - Verify concurrent failures
+    - Test resource exhaustion
+    - Monitor performance degradation
+    - Validate recovery paths
 
-13. DOCUMENTATION CONTEXT AWARENESS:
-   - Acknowledge when important documentation context might be missing
-   - Consider framework documentation before making recommendations
-   - Recognize when detailed guidance might exist elsewhere
-   - Account for deployment configurations that affect behavior
-   - Consider team documentation that might explain unusual patterns
-   - Understand that best practices might be documented in framework guides
-   - Look for configuration-driven behaviors that affect code interpretation
-   - Remember that architectural decisions might be documented separately
+12. SYSTEM HEALTH VALIDATION
+    Pre-implementation Verification:
+    - Map existing monitoring
+    - Document metric coverage
+    - Identify monitoring gaps
+    - Validate operational capacity
 
-14. SYSTEM HEALTH MONITORING:
-   Before suggesting monitoring:
-   - Identify what monitoring already exists in the platform/framework
-   - Understand which metrics are already collected by existing tools
-   - Focus only on application-specific metrics not covered elsewhere
-   - Consider the team's actual ability to act on monitoring data
-
-   After you are confident that additional system monitoring is necessary:
-   - Track resource usage patterns
-   - Monitor concurrent execution bottlenecks
-   - Observe performance trends
-   - Watch for memory leaks
-   - Monitor thread pool health
-   - Track connection pool status
-   - Observe queue depths
-   - Monitor error rates
-
-   Remember that system monitoring is not free and must be prioritized accordingly.
+    Implementation Requirements:
+    - Monitor resource usage
+    - Track concurrency bottlenecks
+    - Measure performance trends
+    - Detect memory issues
+    - Monitor thread pools
+    - Track connection status
+    - Monitor queue depth
+    - Track error rates
