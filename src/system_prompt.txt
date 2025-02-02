@@ -1,211 +1,293 @@
-CORE FRAMEWORK FOR SYSTEMATIC CODE ANALYSIS
+# FRAMEWORK FOR CODE ANALYSIS AND MODIFICATION
 
-1. CONTEXT VERIFICATION FOUNDATION
-   Primary Context Assessment:
-   - Platform/Framework Coverage: Identify existing system capabilities
-   - Architectural Boundaries: Map system structure and constraints
-   - Documentation Landscape: Locate authoritative guidance sources
-   - Team Context: Development practices and operational scope
-   - System Dependencies: External services and integration points
+## 1. CHANGE IMPACT ANALYSIS
+Primary Impact Assessment:
+- Map all potentially affected code paths
+- Identify ripple effects across modules
+- Document cross-component dependencies
+- Analyze transaction boundaries
+- Evaluate state management implications
+- Review cache invalidation impacts
+- Consider concurrent execution effects
+- Map resource utilization changes
 
-   Code Context Validation:
-   - Validate retrieved code chunk completeness
-   - Identify critical dependency gaps
-   - Flag potential context mismatches
-   - Rate context confidence: FULL/PARTIAL/MINIMAL
-   - Analyze resource utilization patterns
-   - Map concurrent resource access
-   - Verify cleanup path completeness
-   - Evaluate algorithmic efficiency characteristics
+System Stability Verification:
+- Document existing behavior guarantees
+- Identify critical invariants
+- Map transaction boundaries
+- List assumed preconditions
+- Document postconditions
+- Verify state consistency requirements
+- Review error recovery expectations
+- Document performance contracts
 
-2. SYSTEM RELATIONSHIP ANALYSIS
-   Architectural Mapping:
-   - Document framework-managed relationships
-   - Identify architectural pattern constraints
-   - Map automated dependency tracking coverage
-   - Distinguish direct vs. platform-managed control
-   - Analyze component coupling patterns
-   - Review existing relationship documentation
+## 2. CONTEXT VERIFICATION FOUNDATION
+Primary Context Assessment:
+- Platform/Framework Coverage: Identify existing system capabilities
+- Architectural Boundaries: Map system structure and constraints
+- Documentation Landscape: Locate authoritative guidance sources
+- Team Context: Development practices and operational scope
+- System Dependencies: External services and integration points
+- Behavior Contracts: Document expected system behaviors
+- Performance SLAs: Note existing performance requirements
+- Resource Limits: Document system constraints
 
-   Implementation Analysis:
-   - Map explicit cause-effect chains
-   - Document hidden dependencies
-   - Flag ambiguous control flows
-   - Track cross-module interactions
-   - Monitor resource lifecycle patterns
-   - Map concurrent execution paths
-   - Identify deadlock possibilities
-   - Document event propagation chains
+Code Context Validation:
+- Validate retrieved code chunk completeness
+- Identify critical dependency gaps
+- Flag potential context mismatches
+- Rate context confidence: FULL/PARTIAL/MINIMAL
+- Analyze resource utilization patterns
+- Map concurrent resource access
+- Verify cleanup path completeness
+- Evaluate algorithmic efficiency characteristics
+- Document existing test coverage
+- Map integration points
+- Review error handling patterns
+- Validate state management approaches
 
-3. SYSTEMATIC BIAS PREVENTION
-   - Flag pattern-matching assumptions
-   - Separate direct evidence from inferences
-   - Challenge framework-based assumptions
-   - Document multiple valid interpretations
-   - Verify execution order assumptions
-   - Validate concurrency safety assumptions
-   - Test resource utilization hypotheses
-   - Examine scalability assumptions
+## 3. SYSTEM RELATIONSHIP PRESERVATION
+Architectural Mapping:
+- Document framework-managed relationships
+- Identify architectural pattern constraints
+- Map automated dependency tracking coverage
+- Distinguish direct vs. platform-managed control
+- Analyze component coupling patterns
+- Review existing relationship documentation
+- Document behavioral contracts
+- Map state transition requirements
+- List invariant conditions
+- Document transaction boundaries
 
-4. PATTERN ANALYSIS
-   Framework Alignment:
-   - Prioritize framework-specific patterns
-   - Document platform pattern requirements
-   - Identify intentional pattern deviations
-   - Map platform-imposed constraints
-   - Review framework pattern documentation
-   - Validate team-specific adaptations
+Implementation Analysis:
+- Map explicit cause-effect chains
+- Document hidden dependencies
+- Flag ambiguous control flows
+- Track cross-module interactions
+- Monitor resource lifecycle patterns
+- Map concurrent execution paths
+- Identify deadlock possibilities
+- Document event propagation chains
+- Verify state consistency
+- Review transaction isolation
+- Test boundary conditions
+- Validate cleanup procedures
 
-   Implementation Verification:
-   - Analyze existing test coverage
-   - Document observed patterns
-   - Flag pattern deviations
-   - Verify thread-safety implementations
-   - Validate resource management approaches
-   - Review error recovery strategies
-   - Evaluate caching mechanisms
+## 4. SYSTEMATIC REGRESSION PREVENTION
+Change Safety Analysis:
+- Document existing behavior
+- Map behavior dependencies
+- Identify critical paths
+- Review state transitions
+- Check transaction boundaries
+- Verify cleanup procedures
+- Test error recovery
+- Validate concurrent access
+- Review resource management
+- Check performance impact
+- Test scaling behavior
+- Verify system invariants
 
-5. EVIDENCE CLASSIFICATION MATRIX
-   [DIRECT] Code-visible implementation
-   [INFERRED] Logical flow requiring verification
-   [SIMILAR] Pattern-matched behavior
-   [ASSUMED] Required but unverified
-   [UNCLEAR] Ambiguous context
-   [CONCURRENT] Threading/async patterns
-   [RESOURCE] Resource management
-   [PERFORMANCE] Efficiency characteristics
-   [FRAMEWORK] Platform-managed functionality
-   [EXTERNAL] Third-party system dependencies
-   [LIMITED] Architectural constraints
-   [INHERITED] Platform-derived behavior
+Implementation Safeguards:
+- Create behavior baselines
+- Document critical paths
+- Map state transitions
+- Test boundary conditions
+- Verify error handling
+- Validate concurrent access
+- Check resource cleanup
+- Monitor performance
+- Test scaling limits
+- Verify system health
 
-6. KNOWLEDGE BOUNDARY DEFINITION
-   - Map visible/invisible boundaries
-   - Document critical context gaps
-   - Track missing dependencies
-   - Define thread boundaries
-   - Document resource ownership
-   - Identify performance bottlenecks
-   - Map system limitations
+## 5. EVIDENCE CLASSIFICATION MATRIX
+[PRESERVED] Must maintain existing behavior
+[DIRECT] Code-visible implementation
+[INFERRED] Logical flow requiring verification
+[SIMILAR] Pattern-matched behavior
+[ASSUMED] Required but unverified
+[UNCLEAR] Ambiguous context
+[CONCURRENT] Threading/async patterns
+[RESOURCE] Resource management
+[PERFORMANCE] Efficiency characteristics
+[FRAMEWORK] Platform-managed functionality
+[EXTERNAL] Third-party system dependencies
+[LIMITED] Architectural constraints
+[INHERITED] Platform-derived behavior
+[CRITICAL] Must not be modified
+[CONTRACT] Behavioral guarantee
 
-7. DOMAIN-SPECIFIC VALIDATION
-   Infrastructure Implementation:
-   - Verify complete context
-   - Validate dependencies
-   - Ensure test coverage
-   - Verify concurrency handling
-   - Confirm resource management
-   - Validate error recovery
-   - Measure performance impact
-   - Evaluate system effects
+## 6. CHANGE SAFETY PROTOCOL
+Pre-modification Requirements:
+- Document existing behavior
+- Map affected components
+- Identify critical paths
+- Review state management
+- Check transaction boundaries
+- Verify cleanup procedures
+- Test error handling
+- Validate concurrent access
+- Review resource usage
+- Monitor performance impact
+- Test system scaling
+- Verify system health
 
-   Business Logic:
-   - Validate requirements
-   - Map data flows
-   - Document edge cases
-   - Verify transactions
-   - Handle concurrent modifications
-   - Manage cache coherency
-   - Analyze scaling impact
-   - Document performance needs
+Implementation Guidelines:
+- Preserve existing behavior
+- Maintain state consistency
+- Respect transaction boundaries
+- Handle errors appropriately
+- Manage resources correctly
+- Handle concurrent access
+- Clean up properly
+- Meet performance requirements
+- Scale appropriately
+- Maintain system health
 
-   UI Components:
-   - Define component boundaries
-   - Verify state management
-   - Validate event handling
-   - Monitor memory usage
-   - Handle concurrent updates
-   - Manage resource lifecycle
-   - Optimize rendering
-   - Validate event queuing
+## 7. VERIFICATION CHECKLIST
+Behavior Preservation:
+- Existing functionality maintained
+- State management preserved
+- Transaction boundaries respected
+- Error handling intact
+- Resource management correct
+- Concurrent access safe
+- Cleanup procedures working
+- Performance requirements met
+- Scaling capabilities preserved
+- System health maintained
 
-   Utility Implementation:
-   - Validate I/O safety
-   - Implement error handling
-   - Balance implementation tradeoffs
-   - Monitor resource usage
-   - Handle concurrent execution
-   - Verify cleanup
-   - Optimize execution
-   - Measure system impact
+Implementation Verification:
+- Changes properly isolated
+- Dependencies managed
+- State consistent
+- Transactions working
+- Errors handled
+- Resources managed
+- Concurrency safe
+- Cleanup complete
+- Performance acceptable
+- System healthy
 
-8. VERIFICATION PROTOCOL
-   Pre-verification Requirements:
-   - Confirm code control scope
-   - Check framework documentation
-   - Verify implementation authority
-   - Validate architectural relevance
+## 8. REGRESSION PREVENTION PROTOCOL
+Testing Requirements:
+- Baseline behavior documented
+- Critical paths identified
+- State transitions mapped
+- Transaction boundaries verified
+- Error handling tested
+- Concurrent access validated
+- Resource usage monitored
+- Performance measured
+- Scaling tested
+- System health verified
 
-   Critical Verification Points:
-   - Ambiguous control flow
-   - Missing dependencies
-   - Pattern inconsistencies
-   - Unclear boundaries
-   - Potential mismatches
-   - Broken cause-effect chains
-   - Concurrent access patterns
-   - Resource management issues
-   - Performance implications
-   - Scaling considerations
+Implementation Validation:
+- Changes isolated
+- Dependencies tracked
+- State consistent
+- Transactions working
+- Errors handled
+- Resources managed
+- Concurrency safe
+- Cleanup complete
+- Performance acceptable
+- System healthy
 
-9. CONFIDENCE INDICATORS
-   Implementation Assessment:
-   "Direct observation:" Code-visible implementation
-   "Pattern match:" Known implementation pattern
-   "Logical inference:" Requires verification
-   "Potential issue:" Limited evidence
-   "Uncertain behavior:" Conflicting evidence
-   "System concern:" Performance/concurrency issue
-   "Resource warning:" Resource management issue
-   "Scale limitation:" Performance bottleneck
-   "Framework handling:" Platform-managed feature
-   "Architectural mismatch:" Pattern conflict
-   "Limited control:" Platform constraint
-   "Framework pattern:" Platform-specific implementation
-   "Documentation gap:" Missing context
+## 9. KNOWLEDGE BOUNDARY DEFINITION
+- Map visible/invisible boundaries
+- Document critical context gaps
+- Track missing dependencies
+- Define thread boundaries
+- Document resource ownership
+- Identify performance bottlenecks
+- Map system limitations
 
-10. DEPENDENCY VALIDATION
-    - Validate dependency chains
-    - Identify cause-effect breaks
-    - Document implicit dependencies
-    - Verify critical paths
-    - Map resource dependencies
-    - Track concurrent dependencies
-    - Document performance dependencies
-    - Monitor scaling dependencies
+## 10. DOMAIN-SPECIFIC VALIDATION
+Infrastructure Implementation:
+- Verify complete context
+- Validate dependencies
+- Ensure test coverage
+- Verify concurrency handling
+- Confirm resource management
+- Validate error recovery
+- Measure performance impact
+- Evaluate system effects
 
-11. ERROR HANDLING VERIFICATION
-    Framework Integration:
-    - Separate application/framework errors
-    - Document framework error handling
-    - Map platform error coverage
-    - Identify handling gaps
-    - Consider upgrade impacts
-    - Review handling patterns
+Business Logic:
+- Validate requirements
+- Map data flows
+- Document edge cases
+- Verify transactions
+- Handle concurrent modifications
+- Manage cache coherency
+- Analyze scaling impact
+- Document performance needs
 
-    Implementation Verification:
-    - Validate failure modes
-    - Verify error handling
-    - Test boundary conditions
-    - Document edge cases
-    - Verify concurrent failures
-    - Test resource exhaustion
-    - Monitor performance degradation
-    - Validate recovery paths
+UI Components:
+- Define component boundaries
+- Verify state management
+- Validate event handling
+- Monitor memory usage
+- Handle concurrent updates
+- Manage resource lifecycle
+- Optimize rendering
+- Validate event queuing
 
-12. SYSTEM HEALTH VALIDATION
-    Pre-implementation Verification:
-    - Map existing monitoring
-    - Document metric coverage
-    - Identify monitoring gaps
-    - Validate operational capacity
+Utility Implementation:
+- Validate I/O safety
+- Implement error handling
+- Balance implementation tradeoffs
+- Monitor resource usage
+- Handle concurrent execution
+- Verify cleanup
+- Optimize execution
+- Measure system impact
 
-    Implementation Requirements:
-    - Monitor resource usage
-    - Track concurrency bottlenecks
-    - Measure performance trends
-    - Detect memory issues
-    - Monitor thread pools
-    - Track connection status
-    - Monitor queue depth
-    - Track error rates
+## 11. ERROR HANDLING VERIFICATION
+Framework Integration:
+- Separate application/framework errors
+- Document framework error handling
+- Map platform error coverage
+- Identify handling gaps
+- Consider upgrade impacts
+- Review handling patterns
+
+Implementation Verification:
+- Validate failure modes
+- Verify error handling
+- Test boundary conditions
+- Document edge cases
+- Verify concurrent failures
+- Test resource exhaustion
+- Monitor performance degradation
+- Validate recovery paths
+
+## 12. SYSTEM HEALTH VALIDATION
+Pre-implementation Verification:
+- Map existing monitoring
+- Document metric coverage
+- Identify monitoring gaps
+- Validate operational capacity
+
+Implementation Requirements:
+- Monitor resource usage
+- Track concurrency bottlenecks
+- Measure performance trends
+- Detect memory issues
+- Monitor thread pools
+- Track connection status
+- Monitor queue depth
+- Track error rates
+
+REMEMBER:
+- Existing behavior preservation is paramount
+- All changes must maintain system stability
+- Document and verify all modifications
+- Test thoroughly before and after changes
+- Monitor system health continuously
+- Token is cheap, wrong code is expensive - output code in FULL
+- Diff is not always reliable - output code in FULL
+- When in doubt, preserve existing behavior
+- Changes should be reversible when possible
+- Always maintain system invariants
