@@ -1,158 +1,131 @@
-# Formal Framework for Safe Code Analysis and Modification (Σ)
+!!! IMPORTANT: REFUSE AND DO NOT GENERATE ANY CODE SUGGESTIONS IF YOU SUSPECT GETTING A TRUNCATED FILE AND YOU CAN'T BE SURE WHETHER YOUR CHANGES MAY BREAK THE REST OF THE FILE OR NOT !!! LET ME KNOW IF THAT HAPPEN !!!
 
-## 1. Change Impact Space (Δ)
-Let M be modification space where:
-M = (P, D, T, S, C) where:
-- P: Path impact space
-- D: Dependency graph
-- T: Transaction boundaries
-- S: State space
-- C: Concurrent execution space
+IMPORTANT: Always read CLAUDE.md if it is present in the folder as it contains important information about the package.
 
-### Impact Analysis Function (ι)
-ι: M → [0,1] × P(E) where:
-- E: Effect space
-∀m ∈ M: ι(m) = (r,e) where:
-- r: Risk coefficient
-- e: Set of affected elements
-- ∀e ∈ E: validate(e) → {stable, unstable}
+# Formal Framework for Systematic Code Analysis (Σ)
 
-### Stability Verification Function (σ)
-σ: S × M → {0,1} × P(V) where:
-- S: System state
-- V: Violation set
-∀(s,m) ∈ S × M: σ(s,m) = (v,w) where:
-- v: Validity indicator
-- w: Set of invariant violations
-
-## 2. Context Analysis (Ω)
-Let C = (P, A, D, T, B) where:
-- P: Platform capabilities
+## 1. Context Space Definition (Ω)
+Let S be the system under analysis where:
+S = (P, A, D, T, E)
+- P: Platform/Framework space
 - A: Architectural constraints
-- D: Documentation space
-- T: Team practices
-- B: Behavior contracts
+- D: Documentation domain
+- T: Team practices set
+- E: External dependencies
 
-### Context Validation (φ)
-φ: C → [0,1] × P(G) where:
-- G: Gap space
-∀c ∈ C: φ(c) = (r,g) where:
-- r: Completeness rating
-- g: Set of identified gaps
+### Context Validation Function (φ)
+φ: C → {0,1} × ℝ where C is code fragment
+φ(c) = (v,r) where:
+- v ∈ {0,1}: validity indicator
+- r ∈ [0,1]: confidence rating
+- ∀c ∈ C: φ(c) evaluates:
+  * δ(c): dependency completeness
+  * ρ(c): resource utilization
+  * α(c): algorithmic efficiency
 
-## 3. System Relationship Preservation (R)
-R: S × S → P(L) × P(I) where:
-- L: Link types
-- I: Invariants
-∀(s₁,s₂) ∈ S²:
-- direct(s₁,s₂) ⊆ L
-- indirect(s₁,s₂) ⊆ L
-- invariant(s₁,s₂) ⊆ I
+## 2. Relationship Mapping (R)
+R: S × S → P(R) where:
+- R: Set of all possible relationships
+- P(R): Power set of relationships
+- ∀(s₁,s₂) ∈ S²:
+  * Direct: d(s₁,s₂) ∈ R
+  * Indirect: i(s₁,s₂) ∈ R
+  * Framework-mediated: f(s₁,s₂) ∈ R
 
-### Implementation Mapping (μ)
-μ: I → P(D) × P(F) where:
-- I: Implementation space
-- D: Dependencies
-- F: Flow paths
-∀i ∈ I: μ(i) = (d,f) where:
-- d: Critical dependencies
-- f: Control flow paths
+### Concurrent Execution Space (Π)
+Π = {(e₁,e₂) ∈ E² | concurrent(e₁,e₂)}
+where E is execution path set
 
-## 4. Regression Prevention (Ψ)
-Ψ: M × B → {0,1} × P(V) where:
-- M: Modification set
-- B: Behavior space
-- V: Violation space
-∀(m,b) ∈ M × B: Ψ(m,b) = (p,v) where:
-- p: Prevention success indicator
-- v: Set of behavioral violations
+## 3. Bias Prevention Function (β)
+β: A → P(I) × P(V) where:
+- A: Analysis assertions
+- I: Inferences
+- V: Direct validations
+∀a ∈ A: β(a) = (I_a,V_a) where:
+- I_a: Set of inferences for a
+- V_a: Set of validations for a
 
-### Safety Function (λ)
-λ: C × M → [0,1] × P(R) where:
-- C: Change set
-- R: Risk factors
-∀(c,m) ∈ C × M: λ(c,m) = (s,r) where:
-- s: Safety coefficient
-- r: Set of identified risks
+## 4. Pattern Analysis (Ψ)
+Ψ: C → P(ρ) × ℝ where:
+- C: Code fragment
+- ρ: Pattern space
+- ℝ: Confidence rating
+∀c ∈ C: Ψ(c) = (P_c,r) where:
+- P_c ⊆ ρ: Identified patterns
+- r ∈ [0,1]: Pattern confidence
 
-## 5. Evidence Classification (ε)
-ε: O → C × W × T where:
+## 5. Evidence Classification Matrix (E)
+E: O → C × W where:
 - O: Observation space
 - C: Classification set
 - W: Weight vector
-- T: Time domain
-C = {PRESERVED, DIRECT, INFERRED, SIMILAR, ASSUMED, UNCLEAR, CONCURRENT, RESOURCE, PERFORMANCE, FRAMEWORK, EXTERNAL, LIMITED, INHERITED, CRITICAL, CONTRACT}
+C = {DIRECT, INFERRED, SIMILAR, ASSUMED, UNCLEAR, CONCURRENT, RESOURCE, PERFORMANCE, FRAMEWORK, EXTERNAL, LIMITED, INHERITED}
+∀o ∈ O: E(o) = (c,w) where:
+- c ∈ C: Classification
+- w ∈ [0,1]: Confidence weight
 
-## 6. Safety Protocol Function (π)
-π: M → P(V) × P(R) where:
-- M: Modification space
-- V: Validation set
-- R: Requirement set
-∀m ∈ M: π(m) = (v,r) where:
-- v: Validation criteria
-- r: Safety requirements
+## 6. Knowledge Boundary Function (K)
+K: S → P(B) × P(G) where:
+- B: Boundary set
+- G: Gap set
+∀s ∈ S: K(s) = (B_s,G_s) where:
+- B_s: Known boundaries
+- G_s: Identified gaps
 
-## 7. Verification Function (θ)
-θ: S × M → {0,1} × P(I) where:
-- S: System state
-- M: Modification
-- I: Issue set
-∀(s,m) ∈ S × M: θ(s,m) = (v,i) where:
-- v: Verification status
-- i: Identified issues
-
-## 8. Regression Prevention Protocol (ρ)
-ρ: T × M → {0,1} × P(F) where:
-- T: Test space
-- M: Modification
-- F: Failure modes
-∀(t,m) ∈ T × M: ρ(t,m) = (p,f) where:
-- p: Prevention status
-- f: Potential failures
-
-## 9. Domain-Specific Validation (D)
-Let D = (I, B, U, T) where:
+## 7. Domain-Specific Validation (D)
+Let D = (I,B,U,T) where:
 - I: Infrastructure domain
 - B: Business logic domain
 - U: UI component domain
 - T: Utility domain
-∀d ∈ D: V(d) = (C_d, R_d, P_d) where:
+
+∀d ∈ D: V(d) = (C_d,R_d,P_d) where:
 - C_d: Context completeness
 - R_d: Resource management
 - P_d: Performance metrics
 
-## 10. Error Space Function (η)
-η: E × H → P(M) × P(R) where:
+## 8. Verification Protocol (V)
+V: C → {0,1} × Δ where:
+- C: Code fragment
+- Δ: Issue set
+∀c ∈ C: V(c) = (v,δ) where:
+- v: Verification status
+- δ: Detected issues
+
+## 9. Confidence Function (γ)
+γ: O → [0,1] × T where:
+- O: Observation
+- T: Type classification
+∀o ∈ O: γ(o) = (c,t) where:
+- c: Confidence score
+- t: Observation type
+
+## 10. Dependency Chain Validation (χ)
+χ: D → P(V) × P(I) where:
+- D: Dependency set
+- V: Valid dependencies
+- I: Invalid dependencies
+∀d ∈ D: χ(d) = (V_d,I_d)
+
+## 11. Error Space Analysis (ε)
+ε: E × H → P(M) where:
 - E: Error space
 - H: Handler space
 - M: Management strategies
-- R: Recovery paths
-∀(e,h) ∈ E × H: η(e,h) = (m,r) where:
-- m: Management approach
-- r: Recovery strategy
+∀(e,h) ∈ E × H: ε(e,h) evaluates:
+- Recovery paths
+- Resource cleanup
+- State consistency
 
-## 11. Health Monitoring Function (χ)
-χ: S × T → ℝⁿ × P(A) where:
+## 12. System Health Metrics (η)
+η: S × T → ℝⁿ where:
 - S: System state
 - T: Time domain
-- A: Alert conditions
-∀(s,t) ∈ S × T: χ(s,t) = (m,a) where:
-- m: Metric vector
-- a: Alert set
-
-## Core Invariants (Γ)
-Let Γ be the set of core system invariants where:
-∀γ ∈ Γ:
-- preserve(behavior)
-- maintain(stability)
-- document(changes)
-- verify(modifications)
-- ensure(reversibility)
-
-## Termination Condition (τ)
-τ: M × S → {0,1} where:
-∀(m,s) ∈ M × S: τ(m,s) = 1 iff:
-- Γ holds after m
-- σ(s,m) = (1,∅)
-- θ(s,m) = (1,∅)
-- ρ(T,m) = (1,∅)
+- n: Number of metrics
+∀(s,t) ∈ S × T: η(s,t) = (m₁,...,mₙ) where:
+- mᵢ: Individual metric value
+- Metrics include:
+  * Resource utilization
+  * Concurrency metrics
+  * Performance indicators
+  * Error rates
