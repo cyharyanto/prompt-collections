@@ -1,70 +1,72 @@
-# Working Effectively with AI Code Assistants
+# Comprehensive Prompt Engineering Guide
 
-> Jump straight to [Practical Prompt Engineering Examples](examples/prompts.md) if you want to get my generated prompt examples.
+> Jump straight to [Practical Prompt Examples](examples/prompts/coding/code_prompts.md) for coding or explore other domains.
 
-When we work with AI code assistants, we're engaging with powerful but constrained tools. Think of them as highly capable team members who start fresh with each conversation, excel at pattern recognition, but need careful guidance to work effectively. This framework helps you understand these tools deeply and work with them productively.
+This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
 ## Understanding the Framework
 
-Our framework builds understanding progressively through interconnected documents. Each builds upon the previous ones, much like how we might learn a new programming language by first understanding its core concepts, then its specific features, and finally its advanced applications.
+Our framework builds understanding progressively through interconnected documents across multiple domains. Each builds upon foundational concepts, similar to learning any new skill by first understanding core principles before moving to specific applications.
 
 ### Foundation Documents
 
-We begin with [objectives.md](docs/objectives.md), which explains our goals in working with AI code assistants. Just as you'd want to understand the purpose of a new tool before using it, this document helps you understand what we're trying to achieve and why it matters.
+We begin with understanding [mental models](docs/fundamentals/mental_models.md) of how LLMs work and their [limitations](docs/fundamentals/limitations.md). These documents help you build a solid foundation for effective prompt engineering in any domain.
 
-From there, we move to [assumptions.md](docs/assumptions.md), which explores the technical constraints we're working with. This is similar to understanding the capabilities and limitations of any tool – just as a database has specific performance characteristics we need to work within, AI code assistants have specific characteristics we need to understand.
+Our guides on [context management](docs/fundamentals/context_management.md) and [evaluation](docs/fundamentals/evaluation.md) provide essential techniques applicable across all LLM interactions.
 
-### Deep Understanding
+### Prompt Patterns
 
-[limitations.md](docs/limitations.md) takes us deeper into understanding how AI systems differ from human developers. This isn't about listing what AI can't do – it's about understanding how to work effectively with AI's different way of processing and understanding code.
+The framework includes proven prompt patterns that work across domains:
 
-In [evaluation.md](docs/evaluation.md), we explore how to assess whether we're using these tools effectively. This framework helps us move beyond simple "working/not working" assessments to understand the nuances of effective AI assistance.
+- [Chain of Thought](docs/prompt_patterns/chain_of_thought.md) for complex reasoning tasks
+- [Few-Shot Learning](docs/prompt_patterns/few_shot.md) for teaching by example
+- [Role Prompting](docs/prompt_patterns/role_prompting.md) for specialized expertise
+- [Format Control](docs/prompt_patterns/format_control.md) for structured outputs
 
-### Practical Application
+### Domain-Specific Guidance
 
-[methodology.md](docs/methodology.md) bridges theory and practice. Here's where we take our understanding of AI's capabilities and constraints and turn it into practical workflows and approaches.
+Specialized guidance for different application areas:
 
-Finally, [tailoring.md](docs/tailoring.md) helps us adapt our approaches for different AI models. Just as we might use different debugging techniques for different types of applications, we need different approaches for different types of AI assistants.
+- [Coding](docs/domains/coding/methodology.md): Effective code generation, understanding, and refinement
+- [Writing](docs/domains/writing/content_creation.md): Content creation, editing, and style adaptation
+- [Data Analysis](docs/domains/data_analysis/data_exploration.md): Working with datasets and extracting insights
+- [Education](docs/domains/education): Creating learning materials and educational interactions
+
+### Advanced Topics
+
+For more experienced practitioners:
+
+- [Retrieval-Augmented Generation](docs/advanced/rag.md): Combining LLMs with external knowledge
+- [Multimodal Prompting](docs/advanced/multimodal.md): Working with images, audio, and text
+- [System Design](docs/advanced/system_design.md): Building applications with LLMs
+- [Ethics](docs/advanced/ethics.md): Responsible use of AI language models
 
 ## How to Use This Repository
 
-Think of learning to work with AI code assistants as similar to learning a new programming paradigm. Here's how to progress through this material effectively:
+Think of learning prompt engineering as similar to learning a new skill. Here's how to progress through this material effectively:
 
 1. Start with the Foundation
-   - Read [objectives.md](docs/objectives.md) to understand our goals
-   - Study [assumptions.md](docs/assumptions.md) to grasp the basic constraints
-   - These documents provide the mental model you'll need
+   - Begin with [mental_models.md](docs/fundamentals/mental_models.md) to understand how LLMs work
+   - Study [limitations.md](docs/fundamentals/limitations.md) to grasp the basic constraints
+   - These documents provide the mental model you'll need for all domains
 
-2. Build Understanding
-   - Move on to [limitations.md](docs/limitations.md) to deepen your understanding
-   - Use [evaluation.md](docs/evaluation.md) to learn how to assess effectiveness
-   - These help you think critically about AI assistance
-
-3. Apply Your Knowledge
-   - Study [methodology.md](docs/methodology.md) for practical approaches
-   - Use [tailoring.md](docs/tailoring.md) to adapt to different models
+2. Explore Core Patterns
+   - Understand fundamental patterns like [Chain of Thought](docs/prompt_patterns/chain_of_thought.md)
    - Practice with the examples provided in each document
-  
-## Analysis Protocols
+   
+3. Apply to Your Domain
+   - Focus on domain-specific guidance relevant to your work
+   - Study the examples and templates provided
+   - Adapt the workflows to your specific needs
 
-This framework includes structured protocols for AI code analysis that ensure consistent, thorough, and reliable results. These protocols cover:
+## Practical Resources
 
-1. Context Management
-   - Systematic verification of code completeness
-   - Clear identification of context boundaries
-   - Explicit tracking of dependencies
+This repository includes ready-to-use resources:
 
-2. Analysis Methodology
-   - Evidence classification and confidence signaling
-   - Relationship mapping and validation
-   - Domain-specific analysis approaches
-
-3. Quality Assurance
-   - Structured verification processes
-   - Bias mitigation strategies
-   - Comprehensive edge case consideration
-
-These protocols are detailed in our methodology documentation and implemented through specific interaction patterns described in our practical guides.
+- [Prompt Templates](templates/): Reusable templates for common tasks
+- [Example Workflows](examples/workflows/): End-to-end prompt sequences for complex tasks
+- [Case Studies](examples/case_studies/): Real-world applications and analyses
+- [System Prompts](src/system_prompts/): Ready-to-use system prompts for different applications
 
 ## Contributing
 
@@ -87,7 +89,16 @@ When contributing to this framework, think of yourself as helping to build a com
    - Share best practices
    - Document common pitfalls and solutions
 
-See our [CONTRIBUTING.md](docs/CONTRIBUTING.md) for detailed guidance.
+## Quick Start
+
+If you're just beginning with prompt engineering:
+
+1. Read [mental_models.md](docs/fundamentals/mental_models.md) first to understand how LLMs work
+2. Review [limitations.md](docs/fundamentals/limitations.md) to understand basic constraints
+3. Explore the domain-specific guides relevant to your work
+4. Try the templates and examples in your own interactions
+
+Remember that effective prompt engineering is a skill that develops over time. Focus on building your understanding progressively and applying what you learn in practical situations.
 
 ## Future Development
 
@@ -105,27 +116,5 @@ We're working to enhance this framework in several key areas:
 
 3. Integration Patterns
    - Designing team workflows
-   - Creating code review guides
+   - Creating review guides
    - Developing collaboration patterns
-
-## Quick Start
-
-If you're just beginning to work with AI code assistants:
-
-1. Read [objectives.md](docs/objectives.md) first to understand what we're trying to achieve
-2. Review [assumptions.md](docs/assumptions.md) to understand basic constraints
-3. Start applying the practices in [methodology.md](docs/methodology.md)
-4. Refer to other documents as needed for deeper understanding
-
-Remember that working with AI code assistants is a skill that develops over time. Don't expect to master everything at once – focus on building your understanding progressively and applying what you learn in practical situations.
-
-## Getting Help
-
-If you encounter challenges or have questions:
-
-1. Check the relevant document's troubleshooting section
-2. Look for similar examples in the documentation
-3. Create an issue describing your specific situation
-4. Contribute your learnings back to help others
-
-By working together and sharing our experiences, we can build a more effective framework for everyone working with AI code assistants.
