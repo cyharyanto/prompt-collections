@@ -1,0 +1,110 @@
+# Prompt Engineering Repository Navigation Index
+
+## Repository Architecture
+- **docs/fundamentals/**: mental_models.md→limitations.md→context_management.md→evaluation.md
+- **docs/prompt_patterns/**: chain_of_thought.md→few_shot.md→role_prompting.md→format_control.md
+- **docs/domains/**: coding/{methodology.md,tailoring.md}|writing/{content_creation.md}|data_analysis/{data_exploration.md}|education/{learning_materials.md}
+- **docs/advanced/**: rag.md|multimodal.md|system_design.md|ethics.md
+- **examples/**: prompts/{coding,writing,data_analysis,education}|workflows/research_assistant.md|case_studies/code_debugging.md
+- **templates/**: general/expert_advisor.md|domain/{coding/code_review.md,writing/content_brief.md}
+- **src/**: system_prompts/{code_assistant.txt,code_assistant_formal.txt}|evaluation/README.md|integrations/README.md
+
+## Core Concepts Map
+- **Mental Models**: token_processing>attention_mechanisms>context_windows>pattern_recognition>embedding_spaces
+- **Prompt Patterns**: chain_of_thought(reasoning_decomposition)|few_shot(example_learning)|role_prompting(expertise_framing)|format_control(output_structuring)
+- **Context Management**: window_allocation(5-15%_instruction+60-80%_content+10-25%_support+5-10%_guidance)|chunking_optimization|token_efficiency|retrieval_augmentation
+- **Evaluation**: accuracy+relevance+completeness+format_compliance+consistency+efficiency
+
+## Domain Implementation Matrices
+- **Coding**: architecture_patterns(system_design+component_relationships+interaction_models)|implementation_guidance(algorithm_selection+error_handling)|verification_frameworks(testing+performance)
+- **Writing**: structural_frameworks(information_architecture+narrative_progression)|voice_calibration(tone+style+register)|engagement_mechanisms(hooks+resonance)
+- **Data Analysis**: problem_formulation(question_framing+metrics+constraints)|methodological_guidance(technique_selection+validation)|insight_extraction(pattern_recognition+significance)
+- **Education**: knowledge_mapping(concept_relationships+prerequisites)|engagement_design(cognitive_activation+motivation)|assessment_architecture(verification+demonstration)
+
+## Technical Parameters
+- **Context Windows**: small(≤8K:70-30_ratio)|medium(8K-32K:60-40_ratio)|large(32K-100K:50-50_ratio)|very_large(≥100K:40-60_ratio)
+- **Token Efficiency**: structured_formatting(30-50%_reduction)|terminology_concentration(20-40%_reduction)|semantic_chunking(15-35%_improvement)|noise_elimination(40-60%_reduction)
+- **Memory Reinforcement**: rotational_summary(80%_retention)|key_point_anchoring(93%_constraint_adherence)|state_tracking(97%_completion_accuracy)|dependency_refreshing(82%_coherence)
+
+## Advanced Implementation Frameworks
+- **RAG Architecture**: query_processing(intent+expansion+routing)→context_engineering(relevance+composition+preparation)→augmentation_strategy(framing+integration+verification)→output_refinement
+- **Multimodal Patterns**: cross-modal_reasoning|visual_grounding|sequential_processing|parallel_input|visual-textual_integration|image-based_reasoning
+- **System Design**: architecture_patterns(RAG+CoT_orchestration+critiquing_loops+HITL+multi-agent)|components(input+context+prompt+generation+output+feedback)
+
+## Pattern Implementation Examples
+- **Chain of Thought**: problem_framing+reasoning_instruction+cognitive_scaffolding+output_structure
+- **Few-Shot Learning**: example_selection(coverage+difficulty+diversity+relevance)+example_ordering+format_consistency+example_count(3-5)
+- **Role Prompting**: domain_expert|process_guide|perspective_holder|creative_archetype|system_component
+- **Format Control**: explicit_instructions|format_exemplars|delimiter_control|schema_definition|template_systems
+
+## Quick Implementation Templates
+```
+# Expert Advisor Template
+## ROLE DEFINITION
+You are a world-class expert in [DOMAIN] with [YEARS]+ experience and specialized knowledge in [AREAS].
+
+## CONSULTATION CONTEXT
+I'm seeking your expert guidance on [PROBLEM].
+
+## BACKGROUND INFORMATION
+[CONTEXT]
+
+## SPECIFIC QUESTIONS
+1. [QUESTION_1]
+2. [QUESTION_2]
+
+## CONSTRAINTS AND CONSIDERATIONS
+- [CONSTRAINT_1]
+- [CONSTRAINT_2]
+
+## DELIVERABLE REQUESTED
+[SPECIFY_FORMAT]
+
+## DEPTH LEVEL
+[OVERVIEW_OR_TECHNICAL]
+```
+
+```
+# Chain-of-Thought Template
+Problem: [PROBLEM_STATEMENT]
+
+I'll solve this step-by-step:
+
+1. Understanding phase:
+   - Key elements: [COMPONENTS]
+   - Relationships: [CONNECTIONS]
+   - Constraints: [LIMITATIONS]
+
+2. Strategy selection:
+   - Applicable methods: [APPROACHES]
+   - Optimal approach: [SELECTION]
+
+3. Execution:
+   - Step 1: [OPERATION]
+   - Step 2: [NEXT_STEP]
+   
+4. Verification:
+   - Solution check: [VALIDATION]
+
+Therefore, the solution is [ANSWER].
+```
+
+## Critical Update Priorities
+- **High Frequency**: context_window_sizes|token_efficiency_metrics|RAG_implementation_details|performance_numbers
+- **Medium Frequency**: domain_techniques|implementation_examples|optimization_strategies
+- **Low Frequency**: core_prompt_patterns|mental_models|fundamental_reasoning_approaches
+
+## Navigation Shortcuts
+- **Software Development**: docs/domains/coding/methodology.md
+- **Content Creation**: docs/domains/writing/content_creation.md
+- **Data Analysis**: docs/domains/data_analysis/data_exploration.md
+- **RAG Systems**: docs/advanced/rag.md
+- **Prompt Templates**: templates/
+- **Debugging Example**: examples/case_studies/code_debugging.md
+
+## Optimization Quick Reference
+- Token reduction: Remove redundancy, use structured formats, compress examples
+- Context management: 5-15% instruction, 60-80% core content, remainder for support/guidance
+- Example selection: 1-2 per class (classification), 3-5 total (reasoning), 5-8 (transformation)
+- Pattern composition: Chain-of-Thought+Few-Shot=powerful reasoning with examples
+- Domain adaptation: Select patterns then apply domain-specific implementation matrices
