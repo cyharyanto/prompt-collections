@@ -13,6 +13,7 @@
 
 ---
 
+```
 MODEL:
 [Specify how you want the LLM to approach the task. What role should it take? What tone, style, or perspective should it adopt?]
 
