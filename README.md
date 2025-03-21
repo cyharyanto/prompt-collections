@@ -5,6 +5,7 @@
 This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
 > ⚠️ These documents are 100% AI generated and my involvements are steering the AI to generate the content according to my objective.
+> 📝 The main goal of these documents are for AI consumption, to be copied and pasted directly as part of the prompt.
 
 ## Navigation Guide
 
