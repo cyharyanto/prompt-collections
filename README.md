@@ -4,6 +4,8 @@
 
 This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
+> ⚠️ These documents are 100% AI generated and my involvements are steering the AI to generate the content according to my objective.
+
 ## Understanding the Framework
 
 Our framework builds understanding progressively through interconnected documents across multiple domains. Each builds upon foundational concepts, similar to learning any new skill by first understanding core principles before moving to specific applications.
