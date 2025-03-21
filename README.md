@@ -1,5 +1,7 @@
 # Working Effectively with AI Code Assistants
 
+> Jump straight to [Practical Prompt Engineering Examples](examples/prompts.md) if you want to get my generated prompt examples.
+
 When we work with AI code assistants, we're engaging with powerful but constrained tools. Think of them as highly capable team members who start fresh with each conversation, excel at pattern recognition, but need careful guidance to work effectively. This framework helps you understand these tools deeply and work with them productively.
 
 ## Understanding the Framework
