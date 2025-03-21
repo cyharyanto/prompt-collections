@@ -5,6 +5,21 @@
 
 # Prompt Evaluation Framework
 
+> **Navigation**: `Fundamentals` | [Mental Models](mental_models.md) | [Limitations](limitations.md) | [Context Management](context_management.md) | Evaluation
+> 
+> **Previous**: [Context Management](context_management.md) | **Next**: [Prompt Patterns](../prompt_patterns/chain_of_thought.md)
+> 
+> **Related**: [Format Control](../prompt_patterns/format_control.md), [Objectives](objectives.md)
+
+## Quick Summary
+**For beginners**: This document shows you how to tell if your prompts are working well, with practical ways to measure and improve your results.
+
+**For practitioners**: A comprehensive framework for evaluating prompt performance across different dimensions, with domain-specific metrics and systematic improvement strategies.
+
+**Key takeaway**: Systematic evaluation is essential for prompt improvement. This framework provides concrete metrics and methods to assess accuracy, relevance, completeness, and efficiency.
+
+---
+
 Evaluating how well AI assistants understand and analyze code requires a different approach than evaluating human developers. While a human developer builds expertise over time, an AI assistant approaches each interaction fresh, requiring us to think carefully about how we assess their performance.
 
 ## The Challenge of Session-Based Analysis

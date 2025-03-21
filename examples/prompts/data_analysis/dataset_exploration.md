@@ -1,3 +1,18 @@
+# Data Exploration Prompt Examples
+
+> **Navigation**: [Examples](../../) | `Prompts` → Data Analysis → Dataset Exploration
+> 
+> **Related**: [Data Exploration](../../../docs/domains/data_analysis/data_exploration.md), [Format Control](../../../docs/prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: Ready-to-use prompts to help you analyze and understand datasets, with examples you can customize for your own data.
+
+**For practitioners**: A structured collection of data analysis prompts demonstrating different analytical frameworks, from exploratory analysis to predictive modeling.
+
+**Key takeaway**: These templates show how to effectively structure prompts for different data analysis tasks. Adapt them to your specific datasets and analytical needs.
+
+---
+
 # Data Analysis Framework: Structured Exploration Patterns
 
 This document provides optimized prompt patterns for systematic data exploration, statistical analysis, and insight extraction.

@@ -3,6 +3,23 @@
 <!-- Path: [Fundamentals](../fundamentals/) → Prompt Patterns → [Chain of Thought](chain_of_thought.md) → Few-Shot → [Role Prompting](role_prompting.md) -->
 <!-- Related: [Context Management](../fundamentals/context_management.md) -->
 
+# Few-Shot Learning
+
+> **Navigation**: `Prompt Patterns` | [Chain of Thought](chain_of_thought.md) | Few-Shot | [Role Prompting](role_prompting.md) | [Format Control](format_control.md)
+> 
+> **Previous**: [Chain of Thought](chain_of_thought.md) | **Next**: [Role Prompting](role_prompting.md)
+> 
+> **Related**: [Context Management](../fundamentals/context_management.md)
+
+## Quick Summary
+**For beginners**: This document explains how to teach AI by showing examples of what you want, similar to how you'd teach a person with "here's what I mean..."
+
+**For practitioners**: A framework for designing effective examples that establish patterns for the model to follow, with strategies for minimal but optimal example selection.
+
+**Key takeaway**: Well-designed examples are often more effective than lengthy instructions. Just 2-3 clear examples can dramatically improve AI performance on your specific task.
+
+---
+
 # Few-Shot Prompt Engineering
 
 ## Core Mechanics

@@ -1,3 +1,20 @@
+# Adapting to Different AI Models
+
+> **Navigation**: [Fundamentals](../../fundamentals/) | [Prompt Patterns](../../prompt_patterns/) | `Domains` → Coding → Tailoring
+> 
+> **Previous**: [Methodology](methodology.md) | **Next**: [Code Analysis](code_analysis.md)
+> 
+> **Related**: [Mental Models](../../fundamentals/mental_models.md), [Assumptions](../../fundamentals/assumptions.md)
+
+## Quick Summary
+**For beginners**: This document shows you how to adapt your approach based on the AI model you're using, whether it's a smaller or larger model with different capabilities.
+
+**For practitioners**: A framework for optimizing interactions with different model sizes, architectures, and specializations, with specific strategies for adapting to context windows and model capabilities.
+
+**Key takeaway**: Different AI models require different prompting strategies. This guide helps you tailor your approach for maximum effectiveness based on model size, context window, and specialized capabilities.
+
+---
+
 # Adapting Your Approach for Different AI Models
 
 When working with AI code assistants, we need to understand that different models have different capabilities and limitations, much like how different programming languages excel at different types of tasks. Just as you might approach a problem differently in Python versus C++, you need to adapt your approach based on the AI model you're working with.

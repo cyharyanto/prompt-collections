@@ -1,3 +1,20 @@
+# AI-Assisted Data Exploration
+
+> **Navigation**: [Fundamentals](../../fundamentals/) | [Prompt Patterns](../../prompt_patterns/) | `Domains` → Data Analysis → Data Exploration
+> 
+> **Previous**: [Domains](../) | **Next**: [Insight Generation](insight_generation.md)
+> 
+> **Related**: [Chain of Thought](../../prompt_patterns/chain_of_thought.md), [Format Control](../../prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: This document explains how to use AI to understand your data, from analyzing datasets to creating visualizations and finding patterns.
+
+**For practitioners**: A systematic methodology for leveraging AI in data exploration workflows, with specialized prompt techniques for statistical analysis, pattern discovery, and visualization.
+
+**Key takeaway**: AI can dramatically accelerate data exploration and initial analysis. This guide provides a framework for using AI to gain insights from both structured and unstructured data.
+
+---
+
 # Data Analysis Engineering Framework
 
 ## Analytical Dimension Matrix

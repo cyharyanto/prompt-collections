@@ -1,18 +1,17 @@
-# Practical Prompt Engineering Examples
+# Coding Prompt Examples
 
-## Cross-Domain Templates
+> **Navigation**: [Examples](../../) | `Prompts` → Coding
+> 
+> **Related**: [Coding Methodology](../../../docs/domains/coding/methodology.md), [Chain of Thought](../../../docs/prompt_patterns/chain_of_thought.md)
 
-### The P.R.O.M.P.T Framework Template
+## Quick Summary
+**For beginners**: Ready-to-use coding prompts you can copy and adapt for your projects, covering tasks from code generation to debugging.
 
-```
-PURPOSE:
-[Define your specific objective clearly. What problem are you solving? What outcome do you want?]
+**For practitioners**: A curated collection of optimized prompts for different coding scenarios, demonstrating effective application of prompt engineering patterns.
 
-REFERENCE:
-[Provide context and background information relevant to your request. Include examples, previous work, or specific formats to follow.]
+**Key takeaway**: These examples show effective prompt patterns in action. Use them as starting points and modify them for your specific coding needs.
 
-ORGANIZE:
-[Structure your information logically. Prioritize the most important aspects and indicate any hierarchical relationships.]
+---
 
 MODEL:
 [Specify how you want the LLM to approach the task. What role should it take? What tone, style, or perspective should it adopt?]

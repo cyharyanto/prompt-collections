@@ -1,6 +1,17 @@
-<!-- Navigation Guide -->
-<!-- Previous: [README](../../README.md) | Next: [Limitations](limitations.md) -->
-<!-- Path: Fundamentals → Mental Models → [Limitations](limitations.md) → [Context Management](context_management.md) → [Evaluation](evaluation.md) -->
+# Mental Models for Language Models
+
+> **Navigation**: `Fundamentals` | Mental Models | [Limitations](limitations.md) | [Context Management](context_management.md) | [Evaluation](evaluation.md)
+> 
+> **Previous**: [README](../../README.md) | **Next**: [Limitations](limitations.md)
+
+## Quick Summary
+**For beginners**: This document explains how AI language models "think" and work internally, helping you create better prompts by understanding what happens behind the scenes.
+
+**For practitioners**: A structured framework for understanding token processing, attention mechanisms, and context handling that directly impacts prompt engineering effectiveness.
+
+**Key takeaway**: Language models work by predicting the next word based on patterns they've seen before. Understanding their internal mechanics helps you design prompts that work with their strengths and limitations.
+
+---
 
 # LLM Mental Models: Architectural Framework
 

@@ -1,4 +1,19 @@
-# Ethical Prompt Engineering Framework
+# AI Ethics & Responsible Use
+
+> **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | [Domains](../domains/) | `Advanced` → Ethics
+> 
+> **Previous**: [Domains](../domains/) | **Related**: [System Design](system_design.md)
+
+## Quick Summary
+**For beginners**: This document covers the ethical considerations when working with AI, helping you use these tools responsibly and avoid potential harms.
+
+**For practitioners**: A framework for identifying, assessing, and mitigating ethical risks in AI applications, with practical implementation strategies for responsible development.
+
+**Key takeaway**: Ethical considerations should be integrated from the start of any AI project. This guide provides concrete approaches for addressing bias, privacy, transparency, and safety.
+
+---
+
+# Ethical Framework for AI Applications
 
 ## Core Ethical Dimensions
 | Dimension | Assessment Criteria | Mitigation Tactics |

@@ -1,3 +1,20 @@
+# AI-Assisted Coding Methodology
+
+> **Navigation**: [Fundamentals](../../fundamentals/) | [Prompt Patterns](../../prompt_patterns/) | `Domains` → Coding → Methodology
+> 
+> **Previous**: [Domains](../) | **Next**: [Tailoring](tailoring.md)
+> 
+> **Related**: [Chain of Thought](../../prompt_patterns/chain_of_thought.md), [Format Control](../../prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: This document shows you practical techniques for using AI to help with coding tasks, from generating code to debugging problems.
+
+**For practitioners**: A comprehensive framework for effectively integrating AI into your development workflow, with specific prompt strategies for different coding scenarios.
+
+**Key takeaway**: AI can dramatically accelerate coding tasks when used strategically. This guide provides specific techniques for code generation, analysis, debugging, and optimization.
+
+---
+
 # A Systematic Approach to AI Code Analysis
 
 Just as we have methodologies for code review, testing, and deployment, we need a systematic approach for working with AI code assistants. This methodology accounts for AI's fundamental characteristics: session-based memory, pattern-matching nature, and training-based understanding.

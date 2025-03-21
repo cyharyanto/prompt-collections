@@ -1,5 +1,20 @@
 # Code Review Template
 
+> **Navigation**: [Templates](../../) | `Domain` → Coding → Code Review
+> 
+> **Related**: [Coding Methodology](../../../docs/domains/coding/methodology.md), [Format Control](../../../docs/prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: A ready-to-use template for getting AI to review your code, focusing on specific aspects like security, performance, or readability.
+
+**For practitioners**: A structured template for code review requests with parameters for specifying review focus, context, and deliverable format to obtain targeted, actionable feedback.
+
+**Key takeaway**: Structured code review prompts produce more valuable feedback. This template helps you specify exactly what aspects of your code you want analyzed.
+
+---
+
+# Code Review Template
+
 ## Template Structure
 ```
 # Code Review Request

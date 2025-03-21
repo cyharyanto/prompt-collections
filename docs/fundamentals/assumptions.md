@@ -1,3 +1,20 @@
+# Technical Constraints of AI Models
+
+> **Navigation**: `Fundamentals` | [Mental Models](mental_models.md) | [Limitations](limitations.md) | Assumptions | [Context Management](context_management.md)
+> 
+> **Previous**: [Mental Models](mental_models.md) | **Next**: [Context Management](context_management.md)
+> 
+> **Related**: [Tailoring](../domains/coding/tailoring.md)
+
+## Quick Summary
+**For beginners**: This document explains the technical constraints and assumptions behind AI models that affect how they process information and respond to your requests.
+
+**For practitioners**: A framework for understanding AI models' technical characteristics including context windows, knowledge cutoffs, and retrieval mechanisms that impact prompt design.
+
+**Key takeaway**: Understanding how AI models actually work "under the hood" helps you design more effective prompts that work with rather than against their technical constraints.
+
+---
+
 # Understanding Technical Constraints in AI Code Assistance
 
 When we work with AI code assistants, we're working with tools that have specific technical characteristics that shape how they interact with code. Understanding these characteristics helps us work more effectively with these assistants, much like understanding how a compiler works helps us write better code.

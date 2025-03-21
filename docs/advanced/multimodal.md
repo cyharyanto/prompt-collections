@@ -2,6 +2,21 @@
 <!-- Previous: [Domains](../domains/) | Related: [RAG](rag.md), [System Design](system_design.md) -->
 <!-- Path: [Fundamentals](../fundamentals/) → [Prompt Patterns](../prompt_patterns/) → [Domains](../domains/) → Advanced → Multimodal -->
 
+# Multimodal Prompt Engineering
+
+> **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | [Domains](../domains/) | `Advanced` → Multimodal
+> 
+> **Previous**: [Domains](../domains/) | **Related**: [RAG](rag.md), [System Design](system_design.md)
+
+## Quick Summary
+**For beginners**: This document explains how to work with AI that can understand and generate both text and images, including practical techniques for combining modalities.
+
+**For practitioners**: A comprehensive framework for multimodal systems that addresses cross-modal processing, alignment challenges, and specialized prompt engineering techniques.
+
+**Key takeaway**: Multimodal systems require different prompt strategies than text-only models. Understanding how to effectively combine modalities can unlock powerful new capabilities.
+
+---
+
 # Multimodal Prompt Engineering Framework
 
 ## System Capabilities & Constraints

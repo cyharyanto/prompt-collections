@@ -3,6 +3,17 @@
 
 # Domain-Specific Prompt Engineering
 
+> **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | Domains | [Advanced](../advanced/)
+
+## Quick Summary
+**For beginners**: This section helps you apply prompt engineering techniques to specific fields like coding, writing, data analysis, and education.
+
+**For practitioners**: Domain-specific frameworks that adapt core patterns to specialized contexts, with field-tested implementation strategies and evaluation metrics.
+
+**Key takeaway**: While prompt engineering principles are universal, their application varies significantly across domains. These guides show how to optimize for your specific field.
+
+---
+
 | Domain | Key Resources | Related Patterns |
 |--------|---------------|------------------|
 | [Coding](coding/) | [Methodology](coding/methodology.md), [Code Analysis](coding/code_analysis.md) | [Chain of Thought](../prompt_patterns/chain_of_thought.md), [Format Control](../prompt_patterns/format_control.md) |

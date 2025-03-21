@@ -3,6 +3,23 @@
 <!-- Path: [Fundamentals](../fundamentals/) → Prompt Patterns → Chain of Thought → [Few-Shot](few_shot.md) → [Role Prompting](role_prompting.md) -->
 <!-- Related: [Context Management](../fundamentals/context_management.md) -->
 
+# Chain of Thought Prompting
+
+> **Navigation**: `Prompt Patterns` | Chain of Thought | [Few-Shot Learning](few_shot.md) | [Role Prompting](role_prompting.md) | [Format Control](format_control.md)
+> 
+> **Previous**: [Evaluation](../fundamentals/evaluation.md) | **Next**: [Few-Shot Learning](few_shot.md)
+> 
+> **Related**: [Context Management](../fundamentals/context_management.md)
+
+## Quick Summary
+**For beginners**: This document shows how to get AI to show its work step-by-step like a math problem, resulting in more accurate and explainable answers.
+
+**For practitioners**: A framework for structured reasoning that improves accuracy on complex tasks by 20-40%, with implementation patterns for different reasoning types.
+
+**Key takeaway**: Asking AI to work through problems step-by-step dramatically improves results on complex tasks. This technique works across domains from math to coding to analysis.
+
+---
+
 # Chain-of-Thought Prompting Framework
 
 ## Mechanism Matrix

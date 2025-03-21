@@ -1,3 +1,18 @@
+# Expert Advisor Template
+
+> **Navigation**: [Templates](../) | `General` → Expert Advisor
+> 
+> **Related**: [Role Prompting](../../docs/prompt_patterns/role_prompting.md), [Format Control](../../docs/prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: A template for getting AI to act as an expert in any field, helping you get specialized advice on specific problems.
+
+**For practitioners**: A comprehensive framework for role engineering that creates specialized expert personas with domain-specific parameters, knowledge structures, and response formats.
+
+**Key takeaway**: Properly framed expert roles dramatically improve AI advice quality. This template helps you create detailed expert personas for specialized domains.
+
+---
+
 # Expert Advisor Framework
 
 This framework creates optimized expert consultations through structured role engineering and domain-specific parameter tuning.

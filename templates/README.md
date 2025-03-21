@@ -1,5 +1,14 @@
 # Prompt Engineering Templates
 
+## Quick Summary
+**For beginners**: Ready-to-use templates you can quickly customize for your specific needs without understanding all the technical details.
+
+**For practitioners**: A library of optimized, reusable prompt structures that can be adapted across projects while maintaining performance characteristics.
+
+**Key takeaway**: These templates encapsulate best practices and save time. Start with a template that matches your task, then customize rather than building from scratch.
+
+---
+
 This directory contains reusable templates for common prompt engineering tasks across different domains.
 
 ## Directory Structure

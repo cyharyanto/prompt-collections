@@ -1,3 +1,20 @@
+# AI-Assisted Learning Materials Creation
+
+> **Navigation**: [Fundamentals](../../fundamentals/) | [Prompt Patterns](../../prompt_patterns/) | `Domains` → Education → Learning Materials
+> 
+> **Previous**: [Domains](../) | **Next**: [Assessment](assessment.md)
+> 
+> **Related**: [Few-Shot](../../prompt_patterns/few_shot.md), [Role Prompting](../../prompt_patterns/role_prompting.md)
+
+## Quick Summary
+**For beginners**: This document shows how to use AI to create effective learning materials, from lesson plans to explanations tailored to different learning styles.
+
+**For practitioners**: A pedagogical framework for developing educational content with AI, incorporating learning science principles and instructional design best practices.
+
+**Key takeaway**: AI can help create adaptive, inclusive learning materials that support different learning styles and knowledge levels when guided by sound educational principles.
+
+---
+
 # Educational Prompt Engineering
 
 ## Design Principles

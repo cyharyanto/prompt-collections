@@ -2,6 +2,21 @@
 <!-- Previous: [Mental Models](mental_models.md) | Next: [Context Management](context_management.md) -->
 <!-- Path: Fundamentals → [Mental Models](mental_models.md) → Limitations → [Context Management](context_management.md) → [Evaluation](evaluation.md) -->
 
+# Language Model Limitations
+
+> **Navigation**: `Fundamentals` | [Mental Models](mental_models.md) | Limitations | [Context Management](context_management.md) | [Evaluation](evaluation.md)
+> 
+> **Previous**: [Mental Models](mental_models.md) | **Next**: [Context Management](context_management.md)
+
+## Quick Summary
+**For beginners**: This document explains what AI models can't do well, helping you know when to rely on them and when human expertise is still essential.
+
+**For practitioners**: A framework for understanding the boundaries between pattern recognition and deep understanding, with practical examples of how to leverage human-AI collaboration effectively.
+
+**Key takeaway**: AI excels at recognizing patterns but lacks real-world understanding, making human expertise crucial for context, strategic decisions, and novel problem-solving.
+
+---
+
 # Understanding AI Limitations and the Role of Human Expertise
 
 As AI systems become increasingly sophisticated at analyzing and generating code, it's crucial to understand their fundamental limitations and how they complement, rather than replace, human expertise. This understanding helps us create more effective partnerships between human developers and AI assistants.
@@ -140,9 +155,7 @@ Consider this architectural decision:
 # - Business requirements
 # - Growth projections
 # - Operational capabilities
-```
-
-Human developers excel at:
+```Human developers excel at:
 - Understanding organizational context
 - Evaluating long-term implications
 - Considering non-technical factors
@@ -203,3 +216,5 @@ As AI systems evolve, their capabilities will expand, but the fundamental import
 4. Continue adapting our collaboration patterns as technology advances
 
 By maintaining this understanding, we can build more effective partnerships between AI systems and human developers, leading to better outcomes in software development.
+
+

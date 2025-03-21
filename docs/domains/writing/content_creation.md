@@ -1,3 +1,20 @@
+# AI-Assisted Content Creation
+
+> **Navigation**: [Fundamentals](../../fundamentals/) | [Prompt Patterns](../../prompt_patterns/) | `Domains` → Writing → Content Creation
+> 
+> **Previous**: [Domains](../) | **Next**: [Editing](editing.md)
+> 
+> **Related**: [Role Prompting](../../prompt_patterns/role_prompting.md), [Few-Shot](../../prompt_patterns/few_shot.md)
+
+## Quick Summary
+**For beginners**: This document shows you how to use AI to create different types of written content, from blog posts to marketing materials.
+
+**For practitioners**: A systematic framework for content production with AI, covering ideation, structure, drafting, and refinement with specialized prompt strategies.
+
+**Key takeaway**: Effective AI-assisted writing requires a structured approach. This guide provides techniques to maintain quality, voice consistency, and content accuracy.
+
+---
+
 # Content Engineering Framework
 
 ## Dimensional Matrix

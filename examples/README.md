@@ -1,5 +1,14 @@
 # Prompt Engineering Examples
 
+## Quick Summary
+**For beginners**: This section contains ready-to-use prompt examples you can copy, adapt, and learn from across different domains.
+
+**For practitioners**: A curated collection of proven patterns and workflows demonstrating best practices in real-world applications.
+
+**Key takeaway**: Learning by example is one of the fastest ways to improve your prompt engineering skills. These examples show effective implementation of the principles covered in the documentation.
+
+---
+
 This directory contains practical examples of prompt engineering across different domains and use cases.
 
 ## Directory Structure

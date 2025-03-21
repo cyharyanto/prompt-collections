@@ -1,3 +1,18 @@
+# Code Debugging Case Studies
+
+> **Navigation**: [Examples](../) | `Case Studies` → Code Debugging
+> 
+> **Related**: [Coding Methodology](../../docs/domains/coding/methodology.md), [Format Control](../../docs/prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: Real-world examples showing how to use AI to find and fix bugs in your code, with step-by-step debugging sessions.
+
+**For practitioners**: A collection of systematic debugging approaches using structured prompt techniques for different types of errors, from memory leaks to performance issues.
+
+**Key takeaway**: Effective debugging with AI requires systematic investigation and clear problem descriptions. These case studies demonstrate proven frameworks for different debugging scenarios.
+
+---
+
 # Code Debugging: Systematic Diagnosis Framework
 
 ## Diagnostic Architecture

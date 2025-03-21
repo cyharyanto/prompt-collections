@@ -1,4 +1,21 @@
-# Role-Based Prompt Engineering
+# Role Prompting
+
+> **Navigation**: `Prompt Patterns` | [Chain of Thought](chain_of_thought.md) | [Few-Shot Learning](few_shot.md) | Role Prompting | [Format Control](format_control.md)
+> 
+> **Previous**: [Few-Shot Learning](few_shot.md) | **Next**: [Format Control](format_control.md)
+> 
+> **Related**: [Context Management](../fundamentals/context_management.md)
+
+## Quick Summary
+**For beginners**: This document shows how to get better responses by asking AI to pretend to be an expert in a specific field or role, like "act as a senior programmer" or "as a UX designer."
+
+**For practitioners**: A framework for effective role engineering that leverages persona design, expertise framing, and domain-specific behavior to elicit specialized knowledge and thinking patterns.
+
+**Key takeaway**: Role prompting can dramatically improve responses by activating domain-specific knowledge and reasoning patterns. The right role framing helps AI "think" like a subject matter expert.
+
+---
+
+# Role Prompting Framework
 
 ## Mechanism & Effectiveness
 | Role Category | Cognitive Function | Implementation Strategy | Performance Impact |

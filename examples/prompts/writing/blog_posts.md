@@ -1,3 +1,18 @@
+# Blog Post Prompt Examples
+
+> **Navigation**: [Examples](../../) | `Prompts` → Writing → Blog Posts
+> 
+> **Related**: [Content Creation](../../../docs/domains/writing/content_creation.md), [Role Prompting](../../../docs/prompt_patterns/role_prompting.md)
+
+## Quick Summary
+**For beginners**: Ready-to-use prompts for creating blog posts on any topic, with templates for different styles and formats.
+
+**For practitioners**: A curated collection of blog-specific prompts demonstrating advanced content creation strategies and format optimization techniques.
+
+**Key takeaway**: These templates show how to structure prompts for different blog formats. Customize them for your specific industry, audience, and content goals.
+
+---
+
 # Blog Content Engineering Framework
 
 ## Format Architecture Matrix

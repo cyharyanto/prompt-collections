@@ -2,6 +2,21 @@
 <!-- Previous: [Domains](../domains/) | Related: [Multimodal](multimodal.md), [System Design](system_design.md) -->
 <!-- Path: [Fundamentals](../fundamentals/) → [Prompt Patterns](../prompt_patterns/) → [Domains](../domains/) → Advanced → RAG -->
 
+# Retrieval-Augmented Generation (RAG)
+
+> **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | [Domains](../domains/) | `Advanced` → RAG
+> 
+> **Previous**: [Domains](../domains/) | **Related**: [Multimodal](multimodal.md), [System Design](system_design.md)
+
+## Quick Summary
+**For beginners**: This document explains how to connect AI to external knowledge sources (like databases or documents) to make it smarter and more accurate.
+
+**For practitioners**: A technical framework for implementing retrieval systems that enhance LLMs with external knowledge, including architecture designs and performance optimization.
+
+**Key takeaway**: RAG systems significantly improve factual accuracy and domain-specific knowledge by connecting LLMs to external information sources at inference time.
+
+---
+
 # Retrieval-Augmented Generation Architecture
 
 ## System Component Matrix

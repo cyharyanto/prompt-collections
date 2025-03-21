@@ -1,3 +1,18 @@
+# Research Assistant Workflow
+
+> **Navigation**: [Examples](../) | `Workflows` → Research Assistant
+> 
+> **Related**: [Role Prompting](../../docs/prompt_patterns/role_prompting.md), [Chain of Thought](../../docs/prompt_patterns/chain_of_thought.md)
+
+## Quick Summary
+**For beginners**: A step-by-step guide to using AI for research on any topic, from initial exploration to detailed information gathering.
+
+**For practitioners**: A structured workflow demonstrating how to use connected prompts for comprehensive research, with techniques for topic exploration, source identification, and information synthesis.
+
+**Key takeaway**: Breaking research into a series of connected prompts produces more thorough and reliable results than attempting to get everything in a single prompt.
+
+---
+
 # AI Research Assistant Workflow
 
 This document demonstrates how to use a series of prompts to conduct comprehensive research on a topic.

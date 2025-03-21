@@ -5,6 +5,21 @@
 
 # Context Management Strategies
 
+> **Navigation**: `Fundamentals` | [Mental Models](mental_models.md) | [Limitations](limitations.md) | Context Management | [Evaluation](evaluation.md)
+> 
+> **Previous**: [Limitations](limitations.md) | **Next**: [Evaluation](evaluation.md)
+> 
+> **Related**: [Chain of Thought](../prompt_patterns/chain_of_thought.md), [Few-Shot Learning](../prompt_patterns/few_shot.md)
+
+## Quick Summary
+**For beginners**: This document explains how to work effectively with AI's limited memory (context window), showing you how to organize information for best results.
+
+**For practitioners**: Advanced strategies for context window optimization, token efficiency, and information management that maximize model performance across different window sizes.
+
+**Key takeaway**: How you organize information in your prompts directly affects AI performance. Strategic context management can dramatically improve results, especially for complex tasks.
+
+---
+
 # Context Window Management Framework
 
 ## Core Mechanics & Constraints

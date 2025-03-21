@@ -1,4 +1,19 @@
-# LLM System Architecture
+# System Design for LLM Applications
+
+> **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | [Domains](../domains/) | `Advanced` → System Design
+> 
+> **Previous**: [Domains](../domains/) | **Related**: [RAG](rag.md), [Multimodal](multimodal.md)
+
+## Quick Summary
+**For beginners**: This document shows how to build real applications powered by AI, covering the key components and architectural decisions.
+
+**For practitioners**: A technical framework for designing robust LLM-powered applications, including system architecture patterns, integration strategies, and deployment considerations.
+
+**Key takeaway**: Building effective AI applications requires thoughtful design beyond just good prompts. This guide covers the critical infrastructure and planning needed for production systems.
+
+---
+
+# LLM System Architecture Framework
 
 ## Architecture Patterns
 | Pattern | Application | Key Components |

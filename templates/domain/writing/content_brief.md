@@ -1,5 +1,20 @@
 # Content Brief Template
 
+> **Navigation**: [Templates](../../) | `Domain` → Writing → Content Brief
+> 
+> **Related**: [Content Creation](../../../docs/domains/writing/content_creation.md), [Format Control](../../../docs/prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: A template for getting AI to create high-quality content by clearly defining what you want, from blog posts to marketing materials.
+
+**For practitioners**: A structured content brief template with parameters for audience specification, tone, content requirements, and technical specifications to ensure consistent, high-quality content.
+
+**Key takeaway**: Clear content briefs dramatically improve AI-generated content. This template helps you define exactly what you need for any content type.
+
+---
+
+# Content Brief Template
+
 ## Template Structure
 ```
 # Content Brief: [TITLE]

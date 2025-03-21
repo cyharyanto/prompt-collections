@@ -1,3 +1,20 @@
+# Objective Framework for LLMs
+
+> **Navigation**: `Fundamentals` | [Mental Models](mental_models.md) | [Limitations](limitations.md) | [Context Management](context_management.md) | Objectives
+> 
+> **Previous**: [Assumptions](assumptions.md) | **Next**: [Evaluation](evaluation.md)
+> 
+> **Related**: [Evaluation](evaluation.md), [Format Control](../prompt_patterns/format_control.md)
+
+## Quick Summary
+**For beginners**: This document helps you set clear goals and expectations when working with AI, so you get exactly what you need rather than vague responses.
+
+**For practitioners**: A comprehensive framework for structuring AI objectives across different domains, with precise guidance on defining quality criteria, measurement approaches, and evaluation standards.
+
+**Key takeaway**: Clear objectives dramatically improve AI outputs. This guide provides frameworks for specifying exactly what you want in terms of content, format, approach, and quality.
+
+---
+
 # LLM Objective Framework
 
 ## System Request Architecture

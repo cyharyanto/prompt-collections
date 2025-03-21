@@ -1,4 +1,21 @@
-# Output Format Control Systems
+# Format Control
+
+> **Navigation**: `Prompt Patterns` | [Chain of Thought](chain_of_thought.md) | [Few-Shot Learning](few_shot.md) | [Role Prompting](role_prompting.md) | Format Control
+> 
+> **Previous**: [Role Prompting](role_prompting.md) | **Next**: [Domains](../domains/)
+> 
+> **Related**: [Context Management](../fundamentals/context_management.md), [Evaluation](../fundamentals/evaluation.md)
+
+## Quick Summary
+**For beginners**: This document explains how to control exactly how AI formats its responses, from getting structured data like JSON to creating specific document layouts.
+
+**For practitioners**: A comprehensive framework for output structure control with techniques for format specification, constraint enforcement, and verification across different response types.
+
+**Key takeaway**: Clear format instructions dramatically improve consistency and usability of AI outputs. Using explicit formats saves time on post-processing and increases accuracy.
+
+---
+
+# Format Control Framework
 
 ## Control Mechanism Taxonomy
 | Approach | Implementation | Effectiveness Factors | Application Contexts |

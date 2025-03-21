@@ -1,3 +1,18 @@
+# Lesson Planning Prompt Examples
+
+> **Navigation**: [Examples](../../) | `Prompts` → Education → Lesson Planning
+> 
+> **Related**: [Learning Materials](../../../docs/domains/education/learning_materials.md), [Few-Shot](../../../docs/prompt_patterns/few_shot.md)
+
+## Quick Summary
+**For beginners**: Ready-to-use prompts for creating effective lesson plans for any subject or grade level, with examples you can customize.
+
+**For practitioners**: A structured collection of education-specific prompts demonstrating different instructional design approaches, scaffolding techniques, and assessment integration.
+
+**Key takeaway**: These templates show how to create pedagogically sound lesson plans. Adapt them to your specific subject, student level, and learning objectives.
+
+---
+
 # Educational Design Framework
 
 This document provides optimized frameworks for systematic instructional design, differentiated learning, and comprehensive assessment.

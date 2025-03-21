@@ -1,5 +1,14 @@
 # Repository Map
 
+## Quick Summary
+**For beginners**: A visual guide to help you find exactly what you need in this repository, whether you're just starting or looking for specific techniques.
+
+**For practitioners**: An efficient navigation system to quickly locate relevant resources, patterns, and examples based on your current objective.
+
+**Key takeaway**: Use this map as your starting point whenever you need to locate specific resources. It organizes content by learning path, domain, and task type.
+
+---
+
 This document provides a comprehensive overview of the repository structure to help you navigate efficiently.
 
 ## Core Learning Paths
