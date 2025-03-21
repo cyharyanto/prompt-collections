@@ -1,36 +1,79 @@
-# Few-Shot Learning Techniques
+# Few-Shot Prompt Engineering
 
-This document explores few-shot learning approaches for improved LLM task performance.
+## Core Mechanics
+| Component | Function | Optimization Strategy |
+|-----------|----------|----------------------|
+| **Example selection** | Task pattern demonstration | Diversity sampling + edge case inclusion + variation coverage |
+| **Example ordering** | Learning trajectory establishment | Complexity progression + recency weighting + similarity proximity |
+| **Format consistency** | Pattern recognition facilitation | Structural templating + delimiter standardization + variable positioning |
+| **Example count** | Inference guidance calibration | Task complexity matching + memory constraints + domain unfamiliarity |
 
-## What is Few-Shot Learning?
+## Implementation Framework
 
-Few-shot learning involves providing examples to help LLMs understand the pattern of the task you want them to perform.
-
-## Implementing Few-Shot Prompts
-
-- Selecting representative examples
-- Formatting examples consistently
-- Balancing example complexity and count
-- Ordering strategies for examples
-
-## Applications
-
-- Classification tasks
-- Format transformation
-- Style matching
-- Domain-specific tasks
-
-## Example Structure
-
+### Pattern Specification
 ```
-Input: [First example input]
-Output: [First example output]
+# Structure Components
+- Input/output delimiter: [consistent separation marker]
+- Example boundary: [inter-example separator]
+- Variable indicators: [consistent placeholder notation]
+- Format signaling: [structural consistency elements]
 
-Input: [Second example input]
-Output: [Second example output]
+# Core Template
+[intro text: task description + expected behavior]
 
-Input: [Your actual input]
-Output: ?
+[delimiter_1]Input:[delimiter_2] [example_1_input]
+[delimiter_1]Output:[delimiter_2] [example_1_output]
+
+[delimiter_1]Input:[delimiter_2] [example_2_input]
+[delimiter_1]Output:[delimiter_2] [example_2_output]
+
+[additional examples as needed]
+
+[delimiter_1]Input:[delimiter_2] [target_input]
+[delimiter_1]Output:[delimiter_2]
 ```
 
-> Note: This is a placeholder document that will be expanded with detailed content. 
+### Example Selection Matrix
+| Dimension | Selection Criteria | Implementation Example |
+|-----------|-------------------|------------------------|
+| **Coverage** | Task subtype representation | Classification examples covering all categories |
+| **Difficulty** | Progressive complexity | Simple → moderate → complex examples |
+| **Diversity** | Input variation spectrum | Different formats, lengths, edge cases |
+| **Relevance** | Similarity to target task | Examples matching target domain and style |
+
+## Application Patterns
+
+### Classification Optimization
+- **Example strategy**: 1-2 examples per class + boundary case examples
+- **Format design**: Explicit class labels + reasoning explanation (optional)
+- **Order structure**: Balanced class representation + grouping by class
+- **Enhancement**: Confidence indicators + multi-criteria reasoning
+
+### Style Transfer Engineering 
+- **Example strategy**: High-low style contrast + progressive style shift
+- **Format design**: Input-output pairs showing clear style transformation
+- **Order structure**: Style dimension isolation + combined transformations
+- **Enhancement**: Style element labeling + transformation rationale
+
+### Format Transformation
+- **Example strategy**: Structure preservation examples + content variation
+- **Format design**: Clear input-output format markers + annotation comments
+- **Order structure**: Increasingly complex transformations + consistent positioning
+- **Enhancement**: Format rule explanation + transformation breakdown
+
+## Performance Optimization
+
+### Count Optimization
+```
+Task complexity → Example requirements
+- Simple classification: 1-2 examples per class
+- Moderate reasoning: 3-5 total examples
+- Complex transformation: 5-8 examples
+- Hybrid/multi-step: 4-6 examples with subtask breakdown
+```
+
+### Debugging Techniques
+- **Pattern misalignment**: Add explicit format instructions + increase example similarity
+- **Incomplete pattern adoption**: Add intermediate reasoning steps + highlight pattern markers
+- **Inconsistent outputs**: Standardize output structure + add format constraints
+- **Task misunderstanding**: Add task description before examples + include counter-examples 

@@ -1,52 +1,115 @@
-# Retrieval-Augmented Generation (RAG)
+# Retrieval-Augmented Generation Architecture
 
-This document explores strategies for effectively combining LLMs with retrieval systems.
+## System Component Matrix
+| Component | Function | Implementation Approaches | Optimization Techniques |
+|-----------|----------|--------------------------|-------------------------|
+| **Retrieval System** | Context acquisition from external knowledge sources | Vector DB, sparse retrieval, hybrid search, knowledge graphs | Index optimization, query reformulation, retrieval fusion, caching strategies |
+| **Context Processing** | Transformation of retrieved content into LLM-compatible format | Chunking, filtering, reranking, compression | Relevance thresholding, token optimization, hierarchical contextualization, information distillation |
+| **Augmentation Mechanism** | Integration of retrieved information with generation directives | Context insertion, instruction engineering, metadata tagging | Placement optimization, weighting strategies, structured formatting, integration signaling |
+| **Generation Control** | Governance of LLM output based on retrieved context | Attribution enforcement, hallucination prevention, verification triggers | Grounding techniques, verification markers, consistency checking, confidence signaling |
 
-## What is RAG?
+## Architectural Patterns
 
-Retrieval-Augmented Generation (RAG) is an approach that combines the generation capabilities of LLMs with the ability to retrieve information from external knowledge sources.
+### Retrieval-Integration Framework
+```
+# Advanced RAG Pipeline
 
-## Key Components
+1. Query Processing
+   - Query understanding: [intent extraction + disambiguation + expansion]
+   - Retrieval formulation: [query transformation + metadata filtering + retrieval parameters]
+   - Multi-retrieval orchestration: [source prioritization + retrieval routing + fusion strategy]
 
-- Query formulation
-- Retrieval mechanisms
-- Context integration
-- Response generation
+2. Context Engineering
+   - Relevance assessment: [semantic matching + contextual importance + recency weighting]
+   - Context composition: [hierarchical organization + redundancy elimination + complementary assembly]
+   - Context preparation: [size optimization + format standardization + reference annotation]
+
+3. Augmentation Strategy
+   - Generation framing: [task specification + context utilization guidance + output constraints]
+   - Integration method: [direct context inclusion + chain-of-thought scaffolding + iterative refinement]
+   - Verification system: [evidence linking + confidence assessment + information gaps identification]
+
+4. Output Refinement
+   - Quality verification: [factual accuracy + source attribution + response completeness]
+   - Response enhancement: [structure improvement + coherence reinforcement + communication optimization]
+   - Feedback processing: [user signal integration + improvement loop + system adaptation]
+```
+
+### Pattern Implementation Matrix
+| RAG Pattern | Application Context | System Architecture | Performance Characteristics |
+|-------------|---------------------|---------------------|----------------------------|
+| **Direct Context** | Factual QA, document grounding, explicit knowledge tasks | Query → single retrieval → context insertion → generation | High precision, limited synthesis, explicit attribution |
+| **Iterative Retrieval** | Complex research, multi-hop reasoning, exploratory tasks | Initial query → generation → follow-up queries → synthesis | High coverage, gradual refinement, thread maintenance |
+| **Recursive Retrieval-Generation** | Problem-solving, step-by-step analysis, structured output | Decomposition → targeted retrieval per subtask → progressive generation | Task completeness, knowledge composition, structured exploration |
+| **Self-Verification** | Critical applications, high-stakes domains, accuracy-sensitive tasks | Generation → verification query → fact-checking → refinement | Error reduction, confidence estimation, measured uncertainty |
+| **Adaptive Retrieval** | Personalized responses, context-sensitive tasks, specialized domains | User modeling → retrieval customization → personalized generation | Relevance precision, domain adaptation, user alignment |
 
 ## Implementation Strategies
 
-- Prompt construction for retrieval
-- Context window management
-- Hybrid approaches
-- Self-verification techniques
+### Query Engineering
+- **Decomposition techniques**: Breaking complex queries into retrievable components
+- **Expansion methods**: Query enhancement with related terms, synonyms, or context
+- **Meta-retrieval**: Retrieving information about what to retrieve
+- **Iterative refinement**: Progressive query improvement based on intermediate results
 
-## Applications
-
-- Question answering
-- Document-grounded generation
-- Knowledge-intensive tasks
-- Factual consistency
-
-## Example Prompts
-
+### Context Processing Framework
 ```
-Task: Answer questions using retrieved context
+# Context Management Protocol
 
-You are a research assistant helping to answer questions about [domain]. 
-I will provide you with:
-1. A question
-2. Relevant information retrieved from a knowledge base
+1. Content Preparation
+   - Source processing: [document segmentation + metadata extraction + quality filtering]
+   - Chunk optimization: [semantic unit preservation + reference maintenance + information density]
+   - Index strategy: [embedding selection + index structure + update mechanism]
 
-Your task is to:
-1. Use ONLY the information I provide to answer the question
-2. If the retrieved information is insufficient, clearly state what's missing
-3. Cite the specific source from the retrieved information
-4. Do not introduce information that isn't in the retrieved context
+2. Retrieval Tuning
+   - Signal balancing: [semantic similarity + lexical matching + metadata filtering]
+   - Results calibration: [diversity/relevance tradeoff + novelty introduction + domain adaptation]
+   - Context assembly: [hierarchical organization + complementary selection + redundancy management]
 
-Question: [question]
-
-Retrieved information:
-[retrieved context]
+3. Integration Engineering
+   - Context positioning: [preamble/inline/appendix placement + importance signaling]
+   - Reference system: [source attribution + confidence markers + verification hooks]
+   - Utilization guidance: [explicit instruction + framework provision + constraint specification]
 ```
 
-> Note: This is a placeholder document that will be expanded with detailed content. 
+## Application Examples
+
+### Question-Answering System
+```
+Implement [comprehensive RAG-based QA] with:
+
+1. Query Processing Configuration:
+   - Question analysis: Intent classification + entity extraction + ambiguity detection
+   - Retrieval strategy: Hybrid dense-sparse retrieval + multi-hop decomposition
+   - Source prioritization: Recency weighting + authority ranking + relevance thresholding
+
+2. Context Integration Framework:
+   - Assembly method: Supporting-opposition balance + key fact highlighting + confidence marking
+   - Structure format: Hierarchical relevance organization + source metadata preservation
+   - Grounding mechanism: Explicit attribution + verbatim quote inclusion + inference separation
+
+3. Response Parameters:
+   - Generation control: Source-bound assertions + uncertainty transparency + information gaps identification
+   - Output structure: Direct answer highlighting + supporting evidence organization + confidence indicators
+   - Attribution system: Inline citation + reference formatting + source accessibility
+```
+
+### Document-Grounded Analysis
+```
+Create [document-grounded analytical system] with:
+
+1. Document Processing Layer:
+   - Preprocessing pipeline: Structure preservation + semantic segmentation + cross-reference mapping
+   - Metadata enhancement: Document categorization + authority assessment + temporal contextualization
+   - Representation strategy: Multi-vector per segment + hierarchical embedding + passage relationships
+
+2. Analysis Configuration:
+   - Task framing: Analytical goal specification + evaluation criteria + output requirements
+   - Retrieval approach: Multi-stage hybrid retrieval + recursive evidence gathering + contradiction detection
+   - Reasoning framework: Evidence evaluation + analytical progression + conclusion validation
+
+3. Output Engineering:
+   - Structure: Hierarchical findings + supporting evidence mapping + certainty classification
+   - Attribution: Fine-grained source linking + inference documentation + assumption transparency
+   - Verification system: Consistency checking + contradiction highlighting + knowledge boundary marking
+``` 
