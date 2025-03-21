@@ -11,7 +11,7 @@
 
 **For practitioners**: A comprehensive framework for effectively integrating AI into your development workflow, with specific prompt strategies for different coding scenarios.
 
-**Key takeaway**: AI can dramatically accelerate coding tasks when used strategically. This guide provides specific techniques for code generation, analysis, debugging, and optimization.
+**Key takeaway**: AI can help accelerate coding tasks when used strategically. This guide provides specific techniques for code generation, analysis, debugging, and optimization.
 
 ---
 
@@ -83,9 +83,9 @@ Now you can explore deeper questions:
 
 Your methodology should adapt based on the AI model you're working with. Here's how:
 
-### For Models with Small Context Windows (4K-8K tokens)
+### For Models with More Limited Context Windows
 
-Break down analysis into focused sessions:
+Consider breaking down analysis into focused sessions:
 
 Session 1 - Basic Flow:
 ```python
@@ -104,12 +104,12 @@ VALID_NEXT_STATES = {
 }
 ```
 
-### For Models with Large Context Windows (32K+ tokens)
+### For Models with Larger Context Windows
 
-You can provide more comprehensive context:
+You might be able to provide more comprehensive context:
 
 ```python
-# Can include full implementation with related components
+# Consider including implementation with related components
 class OrderProcessor:
     def __init__(self, db, logger, metrics):
         self.db = db

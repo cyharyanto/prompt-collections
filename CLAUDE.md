@@ -223,3 +223,17 @@ The value of this repository comes from its consistent, interconnected knowledge
 2. Update in a systematic way, starting with fundamentals
 3. Maintain the appropriate level of detail and density
 4. Preserve the connection between theory and practice
+
+## Repository Tools
+
+### Repository Summarization
+
+When analyzing the repository structure or content:
+
+1. Use the **repomix** tool to generate a comprehensive summary of the repository:
+   ```
+   repomix /path/to/repository > repomix-output.txt
+   ```
+2. The generated `repomix-output.txt` file contains a consolidated view of the repository structure and content
+3. This file is ephemeral and should NOT be committed to the repository
+4. After analysis is complete, you can safely delete this temporary file

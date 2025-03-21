@@ -170,12 +170,12 @@ T1005,C7654,2022-01-17,P123,Food,75.25,Debit,29,F,FL
 ```
 
 ### Statistical Test Selection Matrix
-| Question Type | Test Options | Assumptions | Business Applications |
+| Question Type | Potential Test Options | Common Assumptions | Possible Business Applications |
 |--------------|-------------|------------|---------------------|
-| **Group Differences** | t-test/ANOVA/Mann-Whitney/Kruskal-Wallis | Sample distribution + group independence + variance characteristics | Customer segment performance + campaign effectiveness + product comparison |
-| **Relationships** | Correlation/regression/chi-square | Variable types + relationship linearity + independence of observations | Driver analysis + predictive modeling + factor influence |
-| **Time Series** | ARIMA/exponential smoothing/spectral analysis | Stationarity + seasonality + trend components | Forecasting + seasonality detection + anomaly identification |
-| **Classification** | Logistic regression/discriminant analysis/machine learning | Sample size + class balance + feature independence | Customer segmentation + churn prediction + response modeling |
+| **Group Differences** | t-test/ANOVA/Mann-Whitney/Kruskal-Wallis | Sample distribution + group independence + variance characteristics | May include customer segment analysis, campaign measurement, product comparison |
+| **Relationships** | Correlation/regression/chi-square | Variable types + relationship linearity + independence of observations | Could support driver analysis, predictive modeling, factor influence studies |
+| **Time Series** | ARIMA/exponential smoothing/spectral analysis | Stationarity + seasonality + trend components | Often used for forecasting, seasonality detection, anomaly identification |
+| **Classification** | Logistic regression/discriminant analysis/machine learning | Sample size + class balance + feature independence | Commonly applied to customer segmentation, churn prediction, response modeling |
 
 ### Implementation Example: Retail Sales Analysis
 
@@ -276,15 +276,15 @@ T1005,C7654,2022-01-17,P123,Food,75.25,Debit,29,F,FL
 ```
 
 ### Visualization Selection Framework
-| Data Relationship | Primary Visualization | Enhancements | Pattern Highlighting |
+| Data Relationship | Common Visualization Options | Potential Enhancements | What They May Help Reveal |
 |-------------------|----------------------|--------------|---------------------|
 | **Distribution (1-var)** | Histogram/box plot/density plot | Reference lines + annotation + distribution fit | Central tendency + outliers + shape characteristics |
 | **Comparison (cat vs num)** | Bar chart/dot plot/violin plot | Color encoding + sorting + reference lines | Magnitude differences + variance patterns + group ranking |
-| **Relationship (num vs num)** | Scatter plot/bubble chart/hexbin | Trendlines + confidence bands + faceting | Correlation strength + clusters + influential points |
-| **Composition (parts to whole)** | Stacked bar/pie chart/treemap | Hierarchical grouping + percentage labeling + highlighting | Proportional relationships + dominant categories + nested structure |
+| **Relationship (num vs num)** | Scatter plot/bubble chart/hexbin | Trendlines + confidence bands + faceting | Correlation patterns + clusters + influential points |
+| **Composition (parts to whole)** | Stacked bar/pie chart/treemap | Hierarchical grouping + percentage labeling + highlighting | Proportional relationships + category distribution + nested structure |
 | **Temporal (time series)** | Line chart/area chart/calendar heatmap | Trend highlighting + seasonality markers + forecasting | Trends + cycles + anomalies + change points |
-| **Geospatial (location data)** | Choropleth/dot density/cartogram | Region highlighting + interactive tooltip + zoom levels | Spatial clusters + regional patterns + outlier areas |
-| **Multivariate (3+ variables)** | Parallel coordinates/radar chart/heatmap | Dimension reduction + interactive filtering + hierarchical clustering | Complex relationships + segmentation patterns + correlation matrices |
+| **Geospatial (location data)** | Choropleth/dot density/cartogram | Region highlighting + interactive tooltip + zoom levels | Spatial distributions + regional patterns + outlier areas |
+| **Multivariate (3+ variables)** | Parallel coordinates/radar chart/heatmap | Dimension reduction + interactive filtering + hierarchical clustering | Multidimensional relationships + grouping patterns + variable correlations |
 
 ### Implementation Example: Customer Segmentation Visualization
 

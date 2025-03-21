@@ -79,12 +79,12 @@
 | **Instructional Guidance** | Implementation success rate + error reduction + completion efficiency | Adaptability to contexts + scalability across instances + resilience to variations | Process implementation + outcome comparison + feedback incorporation |
 
 ### Quantitative Performance Metrics
-| Metric Category | Implementation Measures | Success Thresholds | Failure Indicators |
+| Metric Category | Implementation Measures | Quality Considerations | Potential Issues |
 |-----------------|------------------------|-------------------|-------------------|
-| **Accuracy Metrics** | Factual correctness (%) + error rate (per 1000 tokens) + hallucination frequency | >98% factual alignment + <0.5% hallucinations + <1 error per 1K tokens | <90% factual accuracy + >3% hallucination rate + >5 errors per 1K tokens |
-| **Completion Metrics** | Requirement fulfillment (%) + information coverage (%) + omission rate | >95% requirements addressed + >90% critical information + <3% critical omissions | <80% requirements met + <70% information coverage + >10% critical omissions |
-| **Coherence Metrics** | Logical consistency (%) + structural integrity + flow cohesion | >95% logical integrity + <2 structural breaks + <3 flow disruptions | <85% logical consistency + >5 structural breaks + >7 flow disruptions |
-| **Efficiency Metrics** | Token utilization (info/token) + processing steps + rework requirements | >85% token efficiency + <1.2x optimal steps + <5% rework needed | <60% token efficiency + >2x optimal steps + >20% rework required |
+| **Accuracy Metrics** | Factual correctness + error rate + hallucination frequency | Aim for high factual alignment, minimal hallucinations, and low error rates | Watch for low factual accuracy, high hallucination rates, frequent errors |
+| **Completion Metrics** | Requirement fulfillment + information coverage + omission rate | Try to address all requirements, include critical information, avoid important omissions | Be aware of missed requirements, insufficient coverage, critical omissions |
+| **Coherence Metrics** | Logical consistency + structural integrity + flow cohesion | Strive for logical integrity, solid structure, and smooth flow | Check for logical inconsistencies, structural problems, flow disruptions |
+| **Efficiency Metrics** | Token utilization + processing steps + rework requirements | Consider token efficiency, optimal process steps, minimal rework | Watch for poor token efficiency, excessive steps, high rework needs |
 
 ## Application Domains
 
@@ -227,12 +227,12 @@ Create comprehensive testing documentation that:
 ## Evaluation Guidelines
 
 ### Success Evaluation Matrix
-| Dimension | Superior Performance | Adequate Performance | Inadequate Performance |
+| Dimension | High Quality | Acceptable Quality | Needs Improvement |
 |-----------|----------------------|---------------------|------------------------|
-| **Requirement Fulfillment** | 100% critical + >95% secondary requirements | 100% critical + >80% secondary requirements | <100% critical or <70% secondary requirements |
-| **Accuracy Standards** | Zero material errors + comprehensive verification | Zero critical errors + minimal minor errors | Any critical errors or excessive minor errors |
-| **Usability Metrics** | Immediately actionable + self-sufficient + extension-ready | Actionable with minimal clarification + mostly self-sufficient | Requires substantial clarification + incomplete implementation path |
-| **Efficiency Factors** | Optimal resource utilization + direct implementation path | Reasonable resource use + clear implementation path | Excessive resource consumption + inefficient implementation |
+| **Requirement Fulfillment** | All critical and most secondary requirements addressed | All critical and many secondary requirements addressed | Missing critical or most secondary requirements |
+| **Accuracy Standards** | Minimal errors with thorough verification | No critical errors with few minor errors | Contains critical errors or many minor errors |
+| **Usability Metrics** | Readily actionable, self-sufficient, extensible | Actionable with minor clarification, mostly self-sufficient | Requires significant clarification, incomplete implementation |
+| **Efficiency Factors** | Efficient resource use, straightforward implementation | Reasonable resource use, clear implementation | Excessive resource use, inefficient implementation |
 
 ### Scoring Framework
 ```

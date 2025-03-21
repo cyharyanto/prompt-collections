@@ -13,7 +13,7 @@
 
 **For practitioners**: A technical framework for implementing retrieval systems that enhance LLMs with external knowledge, including architecture designs and performance optimization.
 
-**Key takeaway**: RAG systems significantly improve factual accuracy and domain-specific knowledge by connecting LLMs to external information sources at inference time.
+**Key takeaway**: RAG systems can improve factual accuracy and domain-specific knowledge by connecting LLMs to external information sources at inference time.
 
 ---
 
@@ -55,13 +55,13 @@
 ```
 
 ### Pattern Implementation Matrix
-| RAG Pattern | Application Context | System Architecture | Performance Characteristics |
+| RAG Pattern | Application Context | System Architecture | Potential Benefits |
 |-------------|---------------------|---------------------|----------------------------|
-| **Direct Context** | Factual QA, document grounding, explicit knowledge tasks | Query → single retrieval → context insertion → generation | High precision, limited synthesis, explicit attribution |
-| **Iterative Retrieval** | Complex research, multi-hop reasoning, exploratory tasks | Initial query → generation → follow-up queries → synthesis | High coverage, gradual refinement, thread maintenance |
-| **Recursive Retrieval-Generation** | Problem-solving, step-by-step analysis, structured output | Decomposition → targeted retrieval per subtask → progressive generation | Task completeness, knowledge composition, structured exploration |
-| **Self-Verification** | Critical applications, high-stakes domains, accuracy-sensitive tasks | Generation → verification query → fact-checking → refinement | Error reduction, confidence estimation, measured uncertainty |
-| **Adaptive Retrieval** | Personalized responses, context-sensitive tasks, specialized domains | User modeling → retrieval customization → personalized generation | Relevance precision, domain adaptation, user alignment |
+| **Direct Context** | Factual QA, document grounding, explicit knowledge tasks | Query → single retrieval → context insertion → generation | May provide better precision, limited synthesis, supports attribution |
+| **Iterative Retrieval** | Complex research, multi-hop reasoning, exploratory tasks | Initial query → generation → follow-up queries → synthesis | Can improve information coverage, supports gradual refinement, helps maintain thread coherence |
+| **Recursive Retrieval-Generation** | Problem-solving, step-by-step analysis, structured output | Decomposition → targeted retrieval per subtask → progressive generation | Can enhance task completion, supports knowledge composition and structured exploration |
+| **Self-Verification** | Critical applications, high-stakes domains, accuracy-sensitive tasks | Generation → verification query → fact-checking → refinement | May help with error reduction, confidence estimation, and uncertainty measurement |
+| **Adaptive Retrieval** | Personalized responses, context-sensitive tasks, specialized domains | User modeling → retrieval customization → personalized generation | Can improve relevance precision, support domain adaptation and user alignment |
 
 ## Implementation Strategies
 

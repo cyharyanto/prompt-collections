@@ -58,8 +58,8 @@ We can show multiple related files but still need to be selective. We might be a
 - Relevant test files
 - Configuration files
 
-Large Windows (100K+ tokens):
-We can include more context, such as:
+Larger Context Windows:
+Models with larger context windows may allow inclusion of more content, potentially including:
 - Multiple service implementations
 - Their interactions
 - Documentation
@@ -93,7 +93,7 @@ When AI assistants look for relevant code, they use several approaches, each wit
 
 ### Vector Search
 
-Vector search works by converting code into mathematical representations and finding similar patterns. Think of it like finding similar images – it's good at finding code that looks alike but might miss functionally related code that looks different.
+Vector search generally involves converting code into mathematical representations and finding similar patterns. This approach is somewhat analogous to finding similar images – it tends to work well at finding code with similar structure but may not always identify functionally related code that has different syntax or structure.
 
 For example:
 ```python
@@ -116,7 +116,7 @@ AUTH_CONFIG = {
 
 ### Knowledge Graph Approaches
 
-Knowledge graphs map relationships between code components. They're like having a map of a city's road network – even if two locations look different, you can see how they're connected.
+Knowledge graph approaches attempt to map relationships between code components. Using an analogy, they can be compared to a map of a city's road network – showing connections between locations that might otherwise appear unrelated based on their physical appearance alone.
 
 Example of relationships a knowledge graph might capture:
 ```

@@ -87,11 +87,11 @@
 
 ### Count Optimization
 ```
-Task complexity → Example requirements
-- Simple classification: 1-2 examples per class
-- Moderate reasoning: 3-5 total examples
-- Complex transformation: 5-8 examples
-- Hybrid/multi-step: 4-6 examples with subtask breakdown
+Task complexity considerations for examples:
+- Simple classification tasks may benefit from examples for each class
+- Moderate reasoning tasks often need multiple examples
+- Complex transformation tasks typically require more comprehensive examples
+- Hybrid/multi-step tasks may benefit from examples with subtask breakdown
 ```
 
 ### Debugging Techniques

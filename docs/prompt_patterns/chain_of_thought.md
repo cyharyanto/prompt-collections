@@ -14,16 +14,16 @@
 ## Quick Summary
 **For beginners**: This document shows how to get AI to show its work step-by-step like a math problem, resulting in more accurate and explainable answers.
 
-**For practitioners**: A framework for structured reasoning that improves accuracy on complex tasks by 20-40%, with implementation patterns for different reasoning types.
+**For practitioners**: A framework for structured reasoning that may improve accuracy on complex tasks, with implementation patterns for different reasoning types.
 
-**Key takeaway**: Asking AI to work through problems step-by-step dramatically improves results on complex tasks. This technique works across domains from math to coding to analysis.
+**Key takeaway**: Asking AI to work through problems step-by-step can help improve results on complex tasks. This technique can be applied across various domains including math, coding, and analysis.
 
 ---
 
 # Chain-of-Thought Prompting Framework
 
 ## Mechanism Matrix
-| Variant | Implementation | Application Context | Effectiveness Factors |
+| Variant | Implementation | Application Context | Potential Influencing Factors |
 |---------|----------------|---------------------|----------------------|
 | **Standard CoT** | Explicit reasoning request + step indicator | General problems requiring decomposition | Problem complexity, instruction clarity, step granularity |
 | **Zero-shot CoT** | "Let's think step by step" trigger phrase | Novel problems without examples | Task familiarity to model, reasoning type match, problem structure |
