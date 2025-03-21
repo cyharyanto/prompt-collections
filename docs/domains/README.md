@@ -1,3 +1,15 @@
+<!-- Domain Navigation Guide -->
+<!-- All domains share common [Fundamentals](../fundamentals/) and [Prompt Patterns](../prompt_patterns/) -->
+
+# Domain-Specific Prompt Engineering
+
+| Domain | Key Resources | Related Patterns |
+|--------|---------------|------------------|
+| [Coding](coding/) | [Methodology](coding/methodology.md), [Code Analysis](coding/code_analysis.md) | [Chain of Thought](../prompt_patterns/chain_of_thought.md), [Format Control](../prompt_patterns/format_control.md) |
+| [Writing](writing/) | [Content Creation](writing/content_creation.md), [Editing](writing/editing.md) | [Role Prompting](../prompt_patterns/role_prompting.md), [Few-Shot](../prompt_patterns/few_shot.md) |
+| [Data Analysis](data_analysis/) | [Data Exploration](data_analysis/data_exploration.md), [Insight Generation](data_analysis/insight_generation.md) | [Chain of Thought](../prompt_patterns/chain_of_thought.md), [Format Control](../prompt_patterns/format_control.md) |
+| [Education](education/) | [Learning Materials](education/learning_materials.md), [Assessment](education/assessment.md) | [Few-Shot](../prompt_patterns/few_shot.md), [Role Prompting](../prompt_patterns/role_prompting.md) |
+
 # Domain-Specific Prompt Engineering Framework
 
 ## Domain Characterization Matrix

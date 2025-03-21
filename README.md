@@ -6,6 +6,23 @@ This repository provides a comprehensive framework for effective prompt engineer
 
 > ⚠️ These documents are 100% AI generated and my involvements are steering the AI to generate the content according to my objective.
 
+## Navigation Guide
+
+For a comprehensive overview of all repository content, see the [Repository Map](REPOSITORY_MAP.md).
+
+- **Core Learning Path**: [Mental Models](docs/fundamentals/mental_models.md) → [Limitations](docs/fundamentals/limitations.md) → [Context Management](docs/fundamentals/context_management.md) → [Prompt Patterns](docs/prompt_patterns/) → Domain-specific guides
+- **Quick Reference**: [Prompt Templates](templates/) for ready-to-use prompts organized by task
+- **Practical Examples**: [Example Workflows](examples/workflows/) for end-to-end solutions to complex tasks
+- **Advanced Topics**: [RAG](docs/advanced/rag.md), [Multimodal](docs/advanced/multimodal.md), [System Design](docs/advanced/system_design.md)
+
+| If you need to... | Go to... |
+|-------------------|----------|
+| Write better code with AI | [Coding Methodology](docs/domains/coding/methodology.md) |
+| Create content efficiently | [Content Creation](docs/domains/writing/content_creation.md) |
+| Analyze data with AI | [Data Exploration](docs/domains/data_analysis/data_exploration.md) |
+| Improve prompt results | [Evaluation Framework](docs/fundamentals/evaluation.md) |
+| Handle complex reasoning | [Chain of Thought](docs/prompt_patterns/chain_of_thought.md) |
+
 ## Understanding the Framework
 
 Our framework builds understanding progressively through interconnected documents across multiple domains. Each builds upon foundational concepts, similar to learning any new skill by first understanding core principles before moving to specific applications.

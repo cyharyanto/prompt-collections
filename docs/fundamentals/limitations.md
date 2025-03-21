@@ -1,3 +1,7 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Mental Models](mental_models.md) | Next: [Context Management](context_management.md) -->
+<!-- Path: Fundamentals → [Mental Models](mental_models.md) → Limitations → [Context Management](context_management.md) → [Evaluation](evaluation.md) -->
+
 # Understanding AI Limitations and the Role of Human Expertise
 
 As AI systems become increasingly sophisticated at analyzing and generating code, it's crucial to understand their fundamental limitations and how they complement, rather than replace, human expertise. This understanding helps us create more effective partnerships between human developers and AI assistants.

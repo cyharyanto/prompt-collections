@@ -1,3 +1,10 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Limitations](limitations.md) | Next: [Evaluation](evaluation.md) -->
+<!-- Path: Fundamentals → [Mental Models](mental_models.md) → [Limitations](limitations.md) → Context Management → [Evaluation](evaluation.md) -->
+<!-- Related: [Chain of Thought](../prompt_patterns/chain_of_thought.md), [Few-Shot Learning](../prompt_patterns/few_shot.md) -->
+
+# Context Management Strategies
+
 # Context Window Management Framework
 
 ## Core Mechanics & Constraints

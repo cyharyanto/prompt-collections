@@ -1,3 +1,7 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Domains](../domains/) | Related: [Multimodal](multimodal.md), [System Design](system_design.md) -->
+<!-- Path: [Fundamentals](../fundamentals/) → [Prompt Patterns](../prompt_patterns/) → [Domains](../domains/) → Advanced → RAG -->
+
 # Retrieval-Augmented Generation Architecture
 
 ## System Component Matrix

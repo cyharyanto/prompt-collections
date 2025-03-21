@@ -1,3 +1,8 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Evaluation](../fundamentals/evaluation.md) | Next: [Few-Shot Learning](few_shot.md) -->
+<!-- Path: [Fundamentals](../fundamentals/) → Prompt Patterns → Chain of Thought → [Few-Shot](few_shot.md) → [Role Prompting](role_prompting.md) -->
+<!-- Related: [Context Management](../fundamentals/context_management.md) -->
+
 # Chain-of-Thought Prompting Framework
 
 ## Mechanism Matrix

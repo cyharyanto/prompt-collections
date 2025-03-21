@@ -1,3 +1,7 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Domains](../domains/) | Related: [RAG](rag.md), [System Design](system_design.md) -->
+<!-- Path: [Fundamentals](../fundamentals/) → [Prompt Patterns](../prompt_patterns/) → [Domains](../domains/) → Advanced → Multimodal -->
+
 # Multimodal Prompt Engineering Framework
 
 ## System Capabilities & Constraints

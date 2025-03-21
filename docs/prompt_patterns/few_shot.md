@@ -1,3 +1,8 @@
+<!-- Navigation Guide -->
+<!-- Previous: [Chain of Thought](chain_of_thought.md) | Next: [Role Prompting](role_prompting.md) -->
+<!-- Path: [Fundamentals](../fundamentals/) → Prompt Patterns → [Chain of Thought](chain_of_thought.md) → Few-Shot → [Role Prompting](role_prompting.md) -->
+<!-- Related: [Context Management](../fundamentals/context_management.md) -->
+
 # Few-Shot Prompt Engineering
 
 ## Core Mechanics

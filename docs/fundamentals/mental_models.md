@@ -1,3 +1,7 @@
+<!-- Navigation Guide -->
+<!-- Previous: [README](../../README.md) | Next: [Limitations](limitations.md) -->
+<!-- Path: Fundamentals → Mental Models → [Limitations](limitations.md) → [Context Management](context_management.md) → [Evaluation](evaluation.md) -->
+
 # LLM Mental Models: Architectural Framework
 
 ## Computational Foundations

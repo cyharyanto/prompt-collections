@@ -1,4 +1,9 @@
-# Evaluating AI Code Understanding: A Practical Framework
+<!-- Navigation Guide -->
+<!-- Previous: [Context Management](context_management.md) | Next: [Prompt Patterns](../prompt_patterns/chain_of_thought.md) -->
+<!-- Path: Fundamentals → [Mental Models](mental_models.md) → [Limitations](limitations.md) → [Context Management](context_management.md) → Evaluation -->
+<!-- Related: [Format Control](../prompt_patterns/format_control.md), [Objectives](objectives.md) -->
+
+# Prompt Evaluation Framework
 
 Evaluating how well AI assistants understand and analyze code requires a different approach than evaluating human developers. While a human developer builds expertise over time, an AI assistant approaches each interaction fresh, requiring us to think carefully about how we assess their performance.
 
