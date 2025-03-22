@@ -4,7 +4,7 @@
 
 This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
-> ⚠️ These documents are 100% AI generated and my involvements are providing rich context and steering the AI to generate the content according to my objective.
+> ⚠️ This repository represents a human-AI collaboration where I provided the conceptual framework, domain expertise, and editorial direction, while using AI to generate the detailed content. This approach exemplifies the kind of effective collaboration between human judgment and AI capabilities that the repository itself aims to teach.
 
 > 📝 The main goal of these documents are for HAI (Human-centred AI) collaborative consumption, part of them can be copied and pasted directly as part of the prompt.
 
