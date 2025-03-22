@@ -4,6 +4,11 @@
 
 This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
+## Presentations and Quick References
+
+- [Prompt Engineering: an Evolution of Software Engineering](Prompt%20Engineering_%20an%20Evolution%20of%20Software%20Engineering.pdf) - Comprehensive presentation on the evolution and methodology of prompt engineering
+- [Primer to Prompt Engineering: A Grounded Approach](Primer%20to%20Prompt%20Engineering_%20A%20Grounded%20Approach%20(20250310).pdf) - Quick-reference handout with key concepts and practical techniques
+
 > ⚠️ This repository represents a human-AI collaboration where I provided the conceptual framework, domain expertise, and editorial direction, while using AI to generate the detailed content. This approach exemplifies the kind of effective collaboration between human judgment and AI capabilities that the repository itself aims to teach.
 
 > 📝 The main goal of these documents is to facilitate HAI (Human-centered AI) collaborative work. They provide frameworks for effectively directing AI tools while maintaining human judgment, expertise, and oversight. Many examples can be adapted directly into your own prompts.

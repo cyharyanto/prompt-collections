@@ -56,6 +56,13 @@
 | [CLAUDE.md](CLAUDE.md) | Repository maintenance guide and information architecture |
 | [llms.txt](llms.txt) | Hyperdense repository index optimized for AI consumption |
 
+## Presentations and Quick References
+
+| Resource | Description |
+|----------|-------------|
+| [Prompt Engineering: an Evolution of Software Engineering](Prompt%20Engineering_%20an%20Evolution%20of%20Software%20Engineering.pdf) | Comprehensive presentation on prompt engineering evolution and methodology |
+| [Primer to Prompt Engineering: A Grounded Approach](Primer%20to%20Prompt%20Engineering_%20A%20Grounded%20Approach%20(20250310).pdf) | Quick-reference handout with key concepts and techniques |
+
 ## Quick Access by Task
 
 | If you want to... | Go here first |
@@ -75,3 +82,4 @@
 | See practical examples | [Examples](examples/) |
 | Evaluate prompt quality | [Evaluation Framework](docs/fundamentals/evaluation.md) |
 | Understand terminology | [Terminology Glossary](TERMINOLOGY_GLOSSARY.md) |
+| Get a quick overview | [Prompt Engineering Primer](Primer%20to%20Prompt%20Engineering_%20A%20Grounded%20Approach%20(20250310).pdf) |
