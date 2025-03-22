@@ -3,17 +3,19 @@
 > **Navigation**: `Fundamentals` | Mental Models | [Limitations](limitations.md) | [Context Management](context_management.md) | [Evaluation](evaluation.md)
 > 
 > **Previous**: [README](../../README.md) | **Next**: [Limitations](limitations.md)
+> 
+> **Related**: [Role Prompting](../prompt_patterns/role_prompting.md) | [Chain of Thought](../prompt_patterns/chain_of_thought.md)
 
 ## Quick Summary
-**For beginners**: This document explains how AI language models "think" and work internally, helping you create better prompts by understanding what happens behind the scenes.
+**For beginners**: This document explains how AI language models work internally, helping you create better prompts by understanding what happens behind the scenes and how to combine AI capabilities with human expertise.
 
-**For practitioners**: A structured framework for understanding token processing, attention mechanisms, and context handling that directly impacts prompt engineering effectiveness.
+**For practitioners**: A structured framework for understanding token processing, attention mechanisms, and context handling that directly impacts collaborative human-AI prompt engineering effectiveness.
 
-**Key takeaway**: Language models work by predicting the next word based on patterns they've seen before. Understanding their internal mechanics helps you design prompts that work with their strengths and limitations.
+**Key takeaway**: Language models work by predicting the next word based on patterns they've seen before. Understanding their internal mechanics helps you design prompts that work with their strengths and limitations while preserving essential human oversight and judgment.
 
 ---
 
-# LLM Mental Models: Architectural Framework
+# LLM Mental Models: Collaborative Architectural Framework
 
 ## Computational Foundations
 | Mechanism | Core Dynamics | Prompt Engineering Implications |
@@ -192,26 +194,35 @@ query → [Input Preprocessing] → [Context Assembly] → [Neural Computation] 
 - Verification instructions
 - Feedback integration signals
 
-## Application Integration
+## Human-AI Collaborative Framework
+
+### Human-AI Cognitive Integration
+| Human Contribution | AI Capability | Collaborative Approach |
+|-------------------|---------------|------------------------|
+| **Domain Expertise** | Pattern recognition + information recall | Human provides specialized knowledge + AI identifies relevant patterns |
+| **Contextual Understanding** | Text processing + relationship mapping | Human interprets complex context + AI processes relationships |
+| **Critical Judgment** | Probabilistic prediction + logical tracing | Human evaluates validity + AI suggests possible connections |
+| **Value Alignment** | Statistical pattern adherence | Human establishes normative framework + AI operates within boundaries |
+| **Creative Direction** | Variation generation + style emulation | Human sets creative direction + AI proposes implementations |
 
 ### Task-Specific Optimization
-| Task Type | Processing Focus | Prompt Optimization |
-|-----------|-----------------|---------------------|
-| **Factual Retrieval** | Knowledge access + precision optimization + source fidelity | Specific entity framing + explicit attribute requests + verification instructions |
-| **Creative Generation** | Exploration space + constraint balance + novelty calibration | Parameter specification + creative license indicators + evaluation criteria |
-| **Analysis & Reasoning** | Decomposition strategy + evidence mapping + conclusion framework | Step structuring + reasoning path clarification + evidence requirements |
-| **Transformation** | Source preservation + target alignment + fidelity-creativity balance | Format specification + retention priorities + adaptation parameters |
+| Task Type | Human Role | AI Processing Focus | Collaborative Prompt Optimization |
+|-----------|------------|---------------------|-----------------------------------|
+| **Factual Retrieval** | Source evaluation + contextual importance | Knowledge access + recall precision | Human formulates precise query + AI retrieves information + human verifies accuracy |
+| **Creative Generation** | Value judgment + novelty assessment | Exploration space + constraint balance | Human defines creative boundaries + AI generates options + human selects/refines |
+| **Analysis & Reasoning** | Problem framing + assumption testing | Decomposition + evidence mapping | Human establishes analysis framework + AI processes details + human evaluates conclusions |
+| **Transformation** | Quality evaluation + purpose alignment | Format adaptation + style mapping | Human specifies transformation criteria + AI executes conversion + human refines output |
 
-### Application Design Patterns
-| Interaction Goal | Mental Model Leverage | Implementation Example |
-|------------------|------------------------|------------------------|
-| Factual retrieval | Knowledge correlation in embedding space | `{specific entity} + {attribute request} + {verification instruction}` |
-| Creative generation | Constraint-bound exploration | `{output parameters} + {creative space definition} + {evaluation criteria}` |
-| Analytical processing | Step-decomposition in simulated reasoning | `{task definition} + {process structure} + {intermediate output requirements}` |
-| Domain adaptation | Conceptual role framing | `{expert identity} + {domain-specific constraints} + {specialized output format}` |
+### Collaborative Design Patterns
+| Interaction Goal | Human Direction | AI Contribution | Implementation Example |
+|------------------|-----------------|-----------------|------------------------|
+| Factual retrieval | Query formulation + verification criteria | Pattern matching + relationship identification | `[human query] + {specific entity} + {verification requirements}` |
+| Creative generation | Creative boundaries + evaluation standards | Option generation + pattern adaptations | `[human creative direction] + {output parameters} + [human selection criteria]` |
+| Analytical processing | Problem definition + critical assessment | Systematic processing + connection identification | `[human problem framing] + {process structure} + [human verification]` |
+| Domain adaptation | Expertise application + quality judgment | Knowledge activation + format adherence | `[human domain guidance] + {domain constraints} + [human review standards]` |
 
-### Cross-Domain Applications
-- **Code generation**: Structure-semantic balance + language-specific optimization
-- **Mathematical reasoning**: Symbolic processing + sequential computation + proof structuring
-- **Multimodal integration**: Cross-format relationship mapping + modal translation
-- **Dialog management**: State tracking + context evolution + coherence maintenance 
+### Cross-Domain Collaborative Applications
+- **Code generation**: Human specifies requirements and validates correctness + AI suggests implementations and identifies patterns
+- **Mathematical reasoning**: Human formulates problem and verifies approach + AI processes calculation steps and suggests solutions
+- **Multimodal integration**: Human provides cross-modal context and evaluates relevance + AI processes format conversions
+- **Dialog management**: Human guides conversation direction and evaluates quality + AI maintains coherence and generates responses 

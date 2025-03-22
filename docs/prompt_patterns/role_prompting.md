@@ -4,14 +4,14 @@
 > 
 > **Previous**: [Few-Shot Learning](few_shot.md) | **Next**: [Format Control](format_control.md)
 > 
-> **Related**: [Context Management](../fundamentals/context_management.md)
+> **Related**: [Context Management](../fundamentals/context_management.md) | [Mental Models](../fundamentals/mental_models.md) | [Limitations](../fundamentals/limitations.md)
 
 ## Quick Summary
-**For beginners**: This document shows how to get better responses by asking AI to pretend to be an expert in a specific field or role, like "act as a senior programmer" or "as a UX designer."
+**For beginners**: This document shows how to get better responses by directing AI to adopt a specific expert perspective, like "analyze this code from a security expert's viewpoint" or "respond with UX design considerations."
 
-**For practitioners**: A framework for effective role engineering that leverages persona design, expertise framing, and domain-specific behavior to elicit specialized knowledge and thinking patterns.
+**For practitioners**: A framework for human-directed role engineering that leverages persona design, expertise framing, and domain-specific behavior to guide AI responses toward specific knowledge domains and reasoning patterns.
 
-**Key takeaway**: Role prompting can dramatically improve responses by activating domain-specific knowledge and reasoning patterns. The right role framing helps AI "think" like a subject matter expert.
+**Key takeaway**: Role prompting, when properly directed by human expertise, can improve AI responses by activating domain-specific knowledge patterns. The right role framing, combined with human oversight, helps AI apply relevant expertise to specific problems.
 
 ---
 
@@ -59,41 +59,54 @@
 
 ## Advanced Techniques
 
-### Multi-Role Orchestration
-- **Sequential role transition**: `[initial analysis role] → [synthesis role] → [critique role]`
-- **Complementary perspectives**: `[role A: technical perspective] + [role B: user perspective]`
-- **Role-based debate**: `[position advocate] ↔ [counterposition advocate] → [synthesis facilitator]`
+### Human-Directed Role Orchestration
+- **Human-guided role transition**: `[human selects initial analysis role] → [human reviews and selects synthesis role] → [human identifies critique perspective]`
+- **Complementary human-AI perspectives**: `[human expertise: domain knowledge] + [AI role: systematic processing]`
+- **Human-moderated perspective exploration**: `[human identifies position] ↔ [AI explores counterposition] → [human synthesizes insights]`
 
-### Role Enhancement Strategies
-- **Credential specificity**: Replace "expert" with specific, verifiable credentials
-- **Experience quantification**: Specify years, projects, or achievements rather than generic expertise
-- **Methodological anchoring**: Reference specific methodologies, frameworks, or schools of thought
-- **Value system articulation**: Define guiding principles, ethical frameworks, or professional standards
-- **Output format binding**: Associate role with specific deliverable formats or documentation standards
+### Human-Centered Role Direction Strategies
+- **Expertise-guided role selection**: Apply human domain knowledge to identify most appropriate expert roles
+- **Effectiveness evaluation**: Assess response quality against human expert standards
+- **Adaptive refinement**: Iteratively adjust role framing based on output evaluation
+- **Complementary expertise**: Identify areas where human expertise differs from typical AI knowledge
+- **Critical evaluation framework**: Apply domain-specific criteria to verify output correctness
+- **Credential specificity**: Replace "expert" with specific, verifiable credentials matching the human's needs
+- **Experience quantification**: Specify relevant experience aligned with the human's objectives
+- **Methodological anchoring**: Reference methodologies that align with human objectives
+- **Value system articulation**: Define principles that reflect human priorities and ethical standards
 
-## Implementation Example
+## Collaborative Implementation Example
 ```
-# Expert Role Definition
+# Human-AI Collaborative Systems Architecture Review
 
-You are a Senior Systems Architect with:
-- 12+ years designing distributed systems at scale
-- Specialized expertise in fault-tolerant microservice architectures
-- Certification in AWS solutions architecture and Google cloud professional architecture
-- Published technical papers on service mesh implementation patterns
-- Experience guiding teams through legacy-to-microservice transitions
+## Human Role (Architecture Team Lead)
+As the Architecture Team Lead, I will:
+- Provide system requirements and business context
+- Review and validate architectural recommendations
+- Make final decisions on trade-offs and implementation priorities
+- Apply organizational knowledge and constraints
+- Evaluate recommendations for alignment with business goals
 
-Your analysis approach prioritizes:
-- Scalability and resilience over initial development speed
-- Long-term maintenance considerations over short-term convenience
-- Clear system boundaries with well-defined interfaces
-- Measurable performance characteristics and SLAs
-- Documented design decisions with explicit trade-offs
+## AI Support Role (Systems Architecture Advisor)
+I need you to analyze our system design from the perspective of a Systems Architecture Advisor with:
+- Experience designing distributed systems at scale
+- Knowledge of fault-tolerant microservice architectures
+- Familiarity with cloud architecture patterns
+- Understanding of service mesh implementation patterns
+- Experience with legacy-to-microservice transitions
 
-When evaluating the system design I'm about to share:
-1. First assess overall architectural soundness
-2. Identify potential scalability bottlenecks
+When analyzing the system design I'll share:
+1. First assess overall architectural soundness based on industry standards
+2. Identify potential scalability bottlenecks 
 3. Evaluate fault-tolerance mechanisms
 4. Suggest specific improvements with implementation considerations
 5. Highlight trade-offs in your recommended approach
 
-Present your analysis as a structured architecture review document with clear sections and recommendations prioritized by implementation impact vs. effort. 
+Present your analysis as a structured architecture review document with clear sections and recommendations. I will evaluate each recommendation based on our specific business context and implementation constraints.
+
+## Review Process
+1. I'll share our current architecture diagram and requirements
+2. You'll provide initial analysis following the structure above
+3. I'll ask clarifying questions and provide additional context
+4. We'll collaboratively refine recommendations
+5. I'll make implementation decisions based on our discussion 

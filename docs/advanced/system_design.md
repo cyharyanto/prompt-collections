@@ -1,28 +1,30 @@
-# System Design for LLM Applications
+# System Design for Human-AI Collaborative Applications
 
 > **Navigation**: [Fundamentals](../fundamentals/) | [Prompt Patterns](../prompt_patterns/) | [Domains](../domains/) | `Advanced` → System Design
 > 
-> **Previous**: [Domains](../domains/) | **Related**: [RAG](rag.md), [Multimodal](multimodal.md)
+> **Previous**: [Ethics](ethics.md) | **Next**: [RAG](rag.md)
+> 
+> **Related**: [RAG](rag.md) | [Multimodal](multimodal.md) | [Mental Models](../fundamentals/mental_models.md)
 
 ## Quick Summary
-**For beginners**: This document shows how to build real applications powered by AI, covering the key components and architectural decisions.
+**For beginners**: This document shows how to build real applications where humans and AI collaborate effectively, covering key components, architectural decisions, and human oversight mechanisms.
 
-**For practitioners**: A technical framework for designing robust LLM-powered applications, including system architecture patterns, integration strategies, and deployment considerations.
+**For practitioners**: A technical framework for designing robust human-centered AI applications, including collaborative system architecture patterns, human-AI integration strategies, and responsible deployment considerations.
 
-**Key takeaway**: Building effective AI applications requires thoughtful design beyond just good prompts. This guide covers the critical infrastructure and planning needed for production systems.
+**Key takeaway**: Building effective AI applications requires thoughtful design that maintains human oversight and judgment throughout the system. This guide covers critical infrastructure and planning needed for responsible AI production systems.
 
 ---
 
 # LLM System Architecture Framework
 
-## Architecture Patterns
-| Pattern | Application | Key Components |
-|---------|-------------|----------------|
-| **RAG** | Knowledge-intensive tasks | Vector DB + retrieval algorithm + context fusion |
-| **CoT Orchestration** | Complex reasoning | Task decomposition + intermediate reasoning + verification |
-| **Critiquing Loops** | Output refinement | Draft generation + evaluation criteria + iterative improvement |
-| **HITL Systems** | Critical applications | Confidence thresholds + human interfaces + correction mechanisms |
-| **Multi-agent** | Specialized workflows | Agent specialization + communication protocol + coordination system |
+## Human-AI Collaborative Architecture Patterns
+| Pattern | Human Role | AI Role | Key Components |
+|---------|------------|---------|----------------|
+| **RAG** | Information need definition + relevance evaluation | Information retrieval + synthesis | Vector DB + retrieval algorithm + context fusion + human verification |
+| **CoT Orchestration** | Problem formulation + validity assessment | Step execution + connection identification | Task decomposition + intermediate reasoning + verification + human oversight |
+| **Critiquing Loops** | Quality criteria definition + evaluation | Draft generation + revision | Draft generation + human evaluation criteria + iterative improvement |
+| **HITL Systems** | Decision authority + edge case handling | Pattern processing + suggestion generation | Confidence thresholds + human interfaces + correction mechanisms + authority protocols |
+| **Multi-agent** | System design + output evaluation | Specialized processing + information routing | Agent specialization + communication protocol + coordination system + human governance |
 
 ## System Components Specification
 
@@ -72,39 +74,51 @@ Input → [Processing] → Output
 - **Integration testing**: Component interaction, API compatibility, dependency validation
 - **Monitoring**: Response quality metrics, drift detection, outlier identification
 
-## System Design Pattern: Customer Support Agent
+## Human-AI Collaborative System Design: Customer Support Platform
 ```
-Architecture: RAG + HITL with escalation paths
+Architecture: Human-centered RAG + HITL with clear human decision authority
 
 Components:
 1. Knowledge Base [Vector DB + metadata store]
    - Product documentation, policies, FAQ, past resolutions
    - Regular synchronization with source-of-truth systems
+   - Human-verified information prioritization
 
 2. Query Processing Pipeline
-   - Intent classification: support category + urgency detection
+   - Human-defined intent classification: support category + urgency detection
    - Context extraction: customer history + product details
-   - Query reformulation: decomposition + enhancement
+   - Human-guided query reformulation: decomposition + enhancement
 
 3. Response Generation System
    - Retrieval mechanism: hybrid (sparse + dense) with re-ranking
-   - Template selection: intent-based + customer segment rules
-   - Personalization layer: tone adjustment + detail calibration
+   - Human-approved template selection: intent-based + customer segment rules
+   - Human-defined personalization guidelines: tone adjustment + detail calibration
+   - Citation generation: source tracking for human verification
 
-4. Human Augmentation Interface
+4. Human Augmentation Interface [Primary decision authority]
    - Confidence scoring: uncertainty highlighting + evidence surfacing
-   - Agent dashboard: suggestion display + edit capabilities
-   - Escalation triggers: complexity thresholds + sentiment analysis
+   - Agent dashboard: suggestion display + edit capabilities + human judgment framework
+   - Human expertise integration: domain knowledge application + value-based decisions
+   - Escalation triggers: complexity thresholds + sentiment analysis + human-defined criteria
 
-5. Quality Assurance Framework
-   - Automated checks: factual accuracy + policy compliance
-   - Human review: sampling strategy + annotation system
-   - Feedback loop: continuous improvement mechanism
+5. Collaborative Quality Assurance Framework
+   - Human-defined quality standards: factual accuracy + policy compliance + customer satisfaction
+   - Human review: sampling strategy + annotation system + feedback mechanism
+   - Human leadership in improvement: directing system refinements based on outcomes
+   - Value-aligned evaluation: measuring success through human-centered metrics
+
+6. Human-AI Governance System
+   - Oversight mechanisms: human review of edge cases and outliers
+   - Feedback incorporation: structured capture of human agent insights
+   - Authority protocols: clear delineation of decision boundaries
+   - Continuous education: human agent training on effective collaboration
 
 Implementation Requirements:
+- Clear human oversight and ultimate decision authority
 - Authentication integration with existing customer systems
 - Sub-second retrieval for common queries
-- Privacy filtering for PII/sensitive data
+- Privacy filtering for PII/sensitive data with human review of edge cases
 - Conversation history with multi-turn capability
 - Explicit source attribution for all factual claims
+- Human satisfaction measurements alongside efficiency metrics
 ``` 

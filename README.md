@@ -6,7 +6,7 @@ This repository provides a comprehensive framework for effective prompt engineer
 
 > ⚠️ This repository represents a human-AI collaboration where I provided the conceptual framework, domain expertise, and editorial direction, while using AI to generate the detailed content. This approach exemplifies the kind of effective collaboration between human judgment and AI capabilities that the repository itself aims to teach.
 
-> 📝 The main goal of these documents are for HAI (Human-centred AI) collaborative consumption, part of them can be copied and pasted directly as part of the prompt.
+> 📝 The main goal of these documents is to facilitate HAI (Human-centered AI) collaborative work. They provide frameworks for effectively directing AI tools while maintaining human judgment, expertise, and oversight. Many examples can be adapted directly into your own prompts.
 
 ## The Evolution of Software Engineering
 
@@ -119,24 +119,33 @@ This repository includes ready-to-use resources:
 
 ## Contributing
 
-When contributing to this framework, think of yourself as helping to build a comprehensive guide for working with an emerging technology. We welcome contributions that:
+When contributing to this framework, think of yourself as helping to build a comprehensive guide for responsible human-AI collaboration. We welcome contributions that emphasize how humans and AI can work together effectively, with humans maintaining judgment and oversight. See our detailed [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
-1. Strengthen Connections
+Our contribution priorities include:
+
+1. Human-Centered Approach
+   - Emphasize human judgment, expertise, and oversight
+   - Show how AI complements human capabilities rather than replacing them
+   - Include examples of collaborative workflows with clear human decision points
+   - Promote responsible AI use aligned with human values
+
+2. Strengthen Connections
    - Add cross-references between related concepts
    - Explain how different aspects of the framework interact
    - Provide real-world examples that tie concepts together
+   - Show how concepts connect to human-centered goals
 
-2. Improve Understanding
-   - Add clear, concrete examples
-   - Provide step-by-step explanations
-   - Create troubleshooting guides
-   - Develop example dialogues
+3. Improve Understanding
+   - Add clear, concrete examples of human-AI collaboration
+   - Provide step-by-step explanations of effective workflows
+   - Create troubleshooting guides that maintain human oversight
+   - Develop example dialogues showing collaborative problem-solving
 
-3. Enhance Practicality
-   - Add implementation guides
-   - Create decision frameworks
-   - Share best practices
-   - Document common pitfalls and solutions
+4. Enhance Practicality
+   - Add implementation guides with human decision frameworks
+   - Create decision matrices for when to use different approaches
+   - Share best practices for maintaining quality and responsibility
+   - Document common pitfalls and human-centered solutions
 
 ## Quick Start
 
