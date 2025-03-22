@@ -1,11 +1,11 @@
 # Repository Map
 
 ## Quick Summary
-**For beginners**: A visual guide to help you find exactly what you need in this repository, whether you're just starting or looking for specific techniques.
+**For beginners**: A visual guide to help you find exactly what you need in this repository, whether you're just starting or looking for specific techniques for human-AI collaboration.
 
-**For practitioners**: An efficient navigation system to quickly locate relevant resources, patterns, and examples based on your current objective.
+**For practitioners**: An efficient navigation system to quickly locate relevant resources, patterns, and examples based on your current objective for effective human-directed AI implementations.
 
-**Key takeaway**: Use this map as your starting point whenever you need to locate specific resources. It organizes content by learning path, domain, and task type.
+**Key takeaway**: Use this map as your starting point whenever you need to locate specific resources. It organizes content by learning path, domain, and task type with emphasis on human judgment and oversight throughout AI interactions.
 
 ---
 
@@ -45,6 +45,17 @@
 - [System Design](docs/advanced/system_design.md) - Application architecture
 - [Ethics](docs/advanced/ethics.md) - Responsible usage
 
+## Meta Documentation
+
+| Resource | Purpose |
+|----------|---------|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Comprehensive contribution guidelines with density standards |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Human-centered AI ethics and community standards |
+| [TERMINOLOGY_GLOSSARY.md](TERMINOLOGY_GLOSSARY.md) | Standardized terminology for consistent usage |
+| [REPOSITORY_QUALITY_CHECKLIST.md](REPOSITORY_QUALITY_CHECKLIST.md) | Quality assurance tracking for repository improvements |
+| [CLAUDE.md](CLAUDE.md) | Repository maintenance guide and information architecture |
+| [llms.txt](llms.txt) | Hyperdense repository index optimized for AI consumption |
+
 ## Quick Access by Task
 
 | If you want to... | Go here first |
@@ -54,9 +65,13 @@
 | Improve code generation | [Coding Methodology](docs/domains/coding/methodology.md) |
 | Create better content | [Content Creation](docs/domains/writing/content_creation.md) |
 | Structure complex prompts | [Format Control](docs/prompt_patterns/format_control.md) |
+| Implement human-AI collaboration | [Human-AI Collaborative Framework](docs/fundamentals/mental_models.md#human-ai-collaborative-framework) |
+| Design collaborative systems | [Human-AI System Design](docs/advanced/system_design.md) |
+| Create collaborative workflows | [Collaborative Implementation](docs/prompt_patterns/role_prompting.md#collaborative-implementation-example) |
 | Use LLMs as a professional | [Using LLMs](docs/perspectives/using_llms/README.md) |
 | Build LLM-powered applications | [Building LLM Systems](docs/perspectives/building_llm_systems/README.md) |
 | Find industry applications | [Industry Applications](docs/applications/industry/README.md) |
 | Find ready-to-use templates | [Templates](templates/) |
 | See practical examples | [Examples](examples/) |
 | Evaluate prompt quality | [Evaluation Framework](docs/fundamentals/evaluation.md) |
+| Understand terminology | [Terminology Glossary](TERMINOLOGY_GLOSSARY.md) |
