@@ -9,35 +9,31 @@
 
 ---
 
-This directory contains reusable templates for common prompt engineering tasks across different domains.
+## Template Categories
 
-## Directory Structure
-
-| Directory | Contents | Usage Guide |
-|-----------|----------|-------------|
-| [General](general/) | Domain-agnostic templates applicable across contexts | Copy and adapt for any domain |
-| [Domain](domain/) | Domain-specific templates optimized for particular fields | Use for specialized tasks |
+| Directory | Contents | Usage |
+|-----------|----------|-------|
+| [General](general/) | Domain-agnostic templates | Universal application |
+| [Domain](domain/) | Field-specific templates | Specialized tasks |
 
 ## Template Types
 
-| Template Type | Purpose | Example Location |
-|---------------|---------|------------------|
-| System Prompts | Set the AI's behavior and capabilities | [General Systems](general/system/) |
-| Task Templates | Accomplish specific common tasks | [Coding Tasks](domain/coding/) |
+| Type | Purpose | Location |
+|------|---------|----------|
+| System Prompts | Set AI behavior | [General Systems](general/system/) |
+| Task Templates | Specific operations | [Coding Tasks](domain/coding/) |
 | Workflow Templates | Multi-step processes | [Analysis Workflows](domain/data_analysis/) |
 | Framework Templates | Structured approaches | [Educational Frameworks](domain/education/) |
 
-## How to Use Templates
+## Usage Pattern
+1. **Find** relevant template
+2. **Customize** placeholders
+3. **Extend** with domain details
+4. **Apply** with your AI model
+5. **Iterate** based on results
 
-1. **Find**: Locate the most relevant template for your task
-2. **Customize**: Replace placeholders with your specific content
-3. **Extend**: Add domain-specific details as needed
-4. **Apply**: Use the template with your preferred AI model
-5. **Iterate**: Refine based on results
-
-## Related Concepts
-
+## Key References
 - [Format Control](../docs/prompt_patterns/format_control.md)
 - [Role Prompting](../docs/prompt_patterns/role_prompting.md)
 - [Few-Shot Learning](../docs/prompt_patterns/few_shot.md)
-- [Chain of Thought](../docs/prompt_patterns/chain_of_thought.md) 
+- [Chain of Thought](../docs/prompt_patterns/chain_of_thought.md)

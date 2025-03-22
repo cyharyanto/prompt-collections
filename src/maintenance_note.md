@@ -1,67 +1,150 @@
 # Repository Maintenance Protocol & Value Persistence Framework
 
-## Update_Priority_Matrix
-| Component | Value_Persistence | Update_Frequency | Update_Approach | Propagation_Requirements |
+## Update Priority Matrix
+
+| Component | Value Persistence | Update Frequency | Update Approach | Propagation Requirements |
 |-----------|------------------|------------------|-----------------|--------------------------|
-| Mental_Models | High(5-10yr) | Low(yearly) | Conservative_Extension | Repository-Wide_Alignment |
-| Prompt_Patterns | High(3-5yr) | Low-Medium(bi-annual) | Pattern_Evolution | Cross-Domain_Consistency |
-| Domain_Techniques | Medium(1-3yr) | Medium(quarterly) | Targeted_Enhancement | Domain-Internal_Coherence |
-| Technical_Parameters | Low(3-12mo) | High(monthly) | Complete_Replacement | Parameter-Dependent_Updates |
-| Performance_Metrics | Low(3-6mo) | High(monthly) | Recalibration | Claim-Based_Consistency |
-| Implementation_Examples | Medium(1-2yr) | Medium-High(quarterly) | Progressive_Refinement | Pattern-Example_Alignment |
+| Mental Models | High (5-10yr) | Low (yearly) | Conservative Extension | Repository-Wide Alignment |
+| Prompt Patterns | High (3-5yr) | Low-Medium (bi-annual) | Pattern Evolution | Cross-Domain Consistency |
+| Domain Techniques | Medium (1-3yr) | Medium (quarterly) | Targeted Enhancement | Domain-Internal Coherence |
+| Technical Parameters | Low (3-12mo) | High (monthly) | Complete Replacement | Parameter-Dependent Updates |
+| Performance Metrics | Low (3-6mo) | High (monthly) | Recalibration | Claim-Based Consistency |
+| Implementation Examples | Medium (1-2yr) | Medium-High (quarterly) | Progressive Refinement | Pattern-Example Alignment |
 
-## Update_Sequence_Protocol
-1. Parameter_Updates(context_windows+token_metrics+efficiency_claims)→
-2. Fundamental_Revisions(mental_models+core_patterns)→
-3. Domain_Adaptations(implementation_techniques+optimization_approaches)→
-4. Example_Alignments(template_refresh+code_updates+case_study_revision)→
-5. Cross-Reference_Verification(navigation+related_docs+terminology)→
-6. High-Density_Synchronization(llms.txt+maintenance_note.md)
+## Update Sequence Protocol
 
-## Value_Preservation_Strategies
-- **Content_Stratification**: timeless_principles>implementation_details>technical_parameters
-- **Version_Tagging**: model_specific_metrics(Claude-3.5)|date_tagged_parameters(2025-03)|window_specific_guidance(100K+)
-- **Backward_Compatibility**: deprecated_concept→replacement_mapping|historical_note→current_practice|transition_paths
-- **Knowledge_Integrity**: concept_relationship_maps|dependency_visualization|prerequisite_tracking
+1. **Parameter Updates**
+   - Context windows
+   - Token metrics
+   - Efficiency claims
+2. **Fundamental Revisions**
+   - Mental models
+   - Core patterns
+3. **Domain Adaptations**
+   - Implementation techniques
+   - Optimization approaches
+4. **Example Alignments**
+   - Template refresh
+   - Code updates
+   - Case study revision
+5. **Cross-Reference Verification**
+   - Navigation
+   - Related docs
+   - Terminology
+6. **High-Density Synchronization**
+   - llms.txt
+   - maintenance_note.md
 
-## Obsolescence_Triggers+Response_Actions
-- **Context_Window_Expansion**→ chunking_technique_revision+efficiency_metric_update+strategy_recalibration
-- **Model_Architecture_Shift**→ mental_model_revision+attention_mechanism_update+pattern_effectiveness_reevaluation
-- **Capability_Threshold_Cross**→ complexity_handling_reassessment+pattern_consolidation+limitation_boundary_shift
-- **Domain_Implementation_Breakthrough**→ isolated_domain_update+cross-domain_technique_assessment+example_modernization
+## Value Preservation Strategies
 
-## Technical_Parameter_Sensitivity
-- **High_Sensitivity**: context_window_sizes|token_efficiency_metrics|compression_ratios|performance_percentages
-- **Medium_Sensitivity**: implementation_techniques|optimization_approaches|framework_structures|pattern_combinations
-- **Low_Sensitivity**: reasoning_approaches|mental_models|domain_fundamentals|knowledge_hierarchies
+- **Content Stratification**:
+  - Timeless principles > implementation details > technical parameters
+- **Version Tagging**:
+  - Model-specific metrics (Claude-3.5)
+  - Date-tagged parameters (2025-03)
+  - Window-specific guidance (100K+)
+- **Backward Compatibility**:
+  - Deprecated concept → replacement mapping
+  - Historical note → current practice
+  - Transition paths
+- **Knowledge Integrity**:
+  - Concept relationship maps
+  - Dependency visualization
+  - Prerequisite tracking
 
-## High-Density_Document_Maintenance
-- **llms.txt**: navigation_system+concept_map+parameter_reference+implementation_patterns
-  - Update_Trigger: repository_structure_change|major_technique_addition|parameter_shift
-  - Update_Protocol: density_preservation>format_consistency|relationship_accuracy>exhaustive_coverage
-- **maintenance_note.md**: priority_matrix+sequence_protocol+preservation_strategies
-  - Update_Trigger: process_change|value_assessment_shift|maintenance_strategy_evolution
-  - Update_Protocol: practical_guidance>theoretical_explanation|action_sequence>rationale_elaboration
+## Obsolescence Triggers & Response Actions
 
-## Cross-Document_Consistency_Verification
-1. Terminology_Alignment(mental_models↔prompt_patterns↔domains↔advanced)
-2. Navigation_Integrity(previous↔current↔next+related_links)
-3. Parameter_Consistency(context_windows+token_metrics+efficiency_claims)
-4. Pattern_Implementation_Coherence(technique_description↔example_implementation)
-5. Value_Persistence_Classification(high↔medium↔low_persistence)
+- **Context Window Expansion**
+  - Chunking technique revision
+  - Efficiency metric update
+  - Strategy recalibration
+- **Model Architecture Shift**
+  - Mental model revision
+  - Attention mechanism update
+  - Pattern effectiveness reevaluation
+- **Capability Threshold Cross**
+  - Complexity handling reassessment
+  - Pattern consolidation
+  - Limitation boundary shift
+- **Domain Implementation Breakthrough**
+  - Isolated domain update
+  - Cross-domain technique assessment
+  - Example modernization
 
-## Practical_Implementation_Checklist
-- [ ] Update_technical_parameters_repository-wide
-- [ ] Verify_fundamental_concepts_remain_valid
-- [ ] Update_domain-specific_techniques_with_latest_best_practices
-- [ ] Refresh_examples_to_reflect_current_patterns
-- [ ] Check_all_navigation_links_and_cross-references
-- [ ] Synchronize_high-density_reference_documents
-- [ ] Document_update_rationale_and_changes_implemented
-- [ ] Assess_value_persistence_classifications_for_accuracy
+## Technical Parameter Sensitivity
 
-## Repository_Evolution_Framework
-- **Expansion_Vectors**: new_domains+technique_refinements+advanced_implementations+integration_patterns
-- **Consolidation_Requirements**: taxonomic_consistency|navigational_coherence|conceptual_hierarchy|implementation_alignment
-- **Deprecation_Protocol**: explicit_marking→replacement_redirection→grace_period→removal_with_historical_reference
-- **Version_Control**: concept_stability_tracking|implementation_maturity_assessment|confidence_rating_system
+- **High Sensitivity**:
+  - Context window sizes
+  - Token efficiency metrics
+  - Compression ratios
+  - Performance percentages
+- **Medium Sensitivity**:
+  - Implementation techniques
+  - Optimization approaches
+  - Framework structures
+  - Pattern combinations
+- **Low Sensitivity**:
+  - Reasoning approaches
+  - Mental models
+  - Domain fundamentals
+  - Knowledge hierarchies
+
+## High-Density Document Maintenance
+
+### llms.txt
+- **Content**: Navigation system, concept map, parameter reference, implementation patterns
+- **Update Triggers**:
+  - Repository structure change
+  - Major technique addition
+  - Parameter shift
+- **Update Protocol**:
+  - Density preservation > format consistency
+  - Relationship accuracy > exhaustive coverage
+
+### maintenance_note.md
+- **Content**: Priority matrix, sequence protocol, preservation strategies
+- **Update Triggers**:
+  - Process change
+  - Value assessment shift
+  - Maintenance strategy evolution
+- **Update Protocol**:
+  - Practical guidance > theoretical explanation
+  - Action sequence > rationale elaboration
+
+## Cross-Document Consistency Verification
+
+1. **Terminology Alignment** (mental models ↔ prompt patterns ↔ domains ↔ advanced)
+2. **Navigation Integrity** (previous ↔ current ↔ next + related links)
+3. **Parameter Consistency** (context windows + token metrics + efficiency claims)
+4. **Pattern Implementation Coherence** (technique description ↔ example implementation)
+5. **Value Persistence Classification** (high ↔ medium ↔ low persistence)
+
+## Practical Implementation Checklist
+
+- [ ] Update technical parameters repository-wide
+- [ ] Verify fundamental concepts remain valid
+- [ ] Update domain-specific techniques with latest best practices
+- [ ] Refresh examples to reflect current patterns
+- [ ] Check all navigation links and cross-references
+- [ ] Synchronize high-density reference documents
+- [ ] Document update rationale and changes implemented
+- [ ] Assess value persistence classifications for accuracy
+
+## Repository Evolution Framework
+
+- **Expansion Vectors**:
+  - New domains
+  - Technique refinements
+  - Advanced implementations
+  - Integration patterns
+- **Consolidation Requirements**:
+  - Taxonomic consistency
+  - Navigational coherence
+  - Conceptual hierarchy
+  - Implementation alignment
+- **Deprecation Protocol**:
+  - Explicit marking → replacement redirection → grace period → removal with historical reference
+- **Version Control**:
+  - Concept stability tracking
+  - Implementation maturity assessment
+  - Confidence rating system

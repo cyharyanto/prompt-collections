@@ -4,8 +4,37 @@
 
 This repository provides a comprehensive framework for effective prompt engineering across various domains. Whether you're working with AI code assistants, content creation, data analysis, or other applications, you'll find structured guidance to improve your interactions with AI language models.
 
-> ⚠️ These documents are 100% AI generated and my involvements are steering the AI to generate the content according to my objective.
-> 📝 The main goal of these documents are for AI consumption, to be copied and pasted directly as part of the prompt.
+> ⚠️ These documents are 100% AI generated and my involvements are providing rich context and steering the AI to generate the content according to my objective.
+
+> 📝 The main goal of these documents are for HAI (Human-centred AI) collaborative consumption, part of them can be copied and pasted directly as part of the prompt.
+
+## The Evolution of Software Engineering
+
+Software engineering has constantly evolved toward higher-level abstractions that increase productivity and expand what engineers can build. Prompt engineering represents the latest evolutionary step in this progression:
+
+| Era | Paradigm | Engineer's Focus |
+|-----|----------|------------------|
+| 1940s-50s | Hardwired Programming | Physical wiring and circuits |
+| 1960s-70s | Punch Cards & Assembly | Machine-level instructions |
+| 1980s-90s | Desktop Applications | APIs and libraries |
+| 2000s-10s | Cloud & Mobile | Services and platforms |
+| 2020s+ | LLM-Augmented Development | Intent and system architecture |
+
+### The True Purpose of Software Engineering
+
+Beyond functionality, software engineering is about:
+- **Augmenting human capability and experience**: Creating tools that enhance what people can accomplish
+- **Ethical responsibility**: Ensuring innovation respects privacy, security, and societal impact
+- **Knowledge integration**: Combining domain expertise with technical implementation
+- **Future-proofing**: Building systems resilient to evolving needs and contexts
+
+### The Critical Paradigm Shift
+
+LLMs enable a fundamental shift in how we approach software development:
+- **Intent Translation**: LLMs excel at bridging human intent and machine execution
+- **Abstraction Elevation**: We're no longer constrained to thinking at the syntax level
+- **Knowledge Leverage**: LLMs encode vast software patterns and practices
+- **System-Level Thinking**: Focus on architecture and what systems should do rather than how they do it
 
 ## Navigation Guide
 

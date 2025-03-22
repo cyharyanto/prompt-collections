@@ -103,6 +103,8 @@ When incorporating new information:
 3. **Examples**: Update examples to reflect changed recommendations
 4. **Performance claims**: Update metrics when new data is available
 
+WARNING: DO NOT ADD ANY UNGROUNDED CLAIMS. YOU ARE NOT TO ADD ANY CLAIMS NOT PRESENT IN THE EXPLICIT PROMPT CONTEXT GIVEN TO YOU.
+
 ## Document Templates
 
 ### Standard Document Structure

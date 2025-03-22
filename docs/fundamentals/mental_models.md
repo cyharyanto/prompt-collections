@@ -120,6 +120,25 @@ query → [Input Preprocessing] → [Context Assembly] → [Neural Computation] 
    - Parallel processing: Simultaneous relationship evaluation
    - Information integration: Composite representation formation
 
+### Attention Distribution and Limitations
+
+#### The "Lost in the Middle" Phenomenon
+- **O(n²) Attention Distribution**: Fixed "attention budget" spreads thinner as context grows
+- **Positional Dilution**: Self-attention prioritizes tokens at boundaries (beginning and end)
+- **U-shaped Attention Curve**: Each token's influence diminishes with distance from boundaries
+- **Practical Impact**: Information in the middle of long contexts is often underrepresented in model processing
+
+#### Computational Complexity Challenges
+- **Quadratic Scaling**: Self-attention complexity is O(n²) – doubling context creates 4× compute load
+- **KV Cache Growth**: Memory usage increases linearly with context as each token's representation must be stored
+- **Layer Multiplicative Effect**: Computational burden multiplies across each transformer layer and attention head
+
+#### Prompt Engineering Implications
+- Place critical information at the beginning or end of prompts
+- Use structural markers to increase salience of mid-context information
+- Break long contexts into chunks with repeated key instructions
+- Implement summarization for progressive context compression
+
 ### Attention Pattern Optimization
 - **Global attention**: Full context consideration for critical information
 - **Local attention**: Neighborhood focus for sequential processing
