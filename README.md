@@ -21,16 +21,7 @@ The **Meta-Dialectical Methodology** is a structured approach for navigating dec
 4. **Synthesize** → Transcend contradictions
 5. **Verify & Project** → Test across contexts
 
-```mermaid
-graph LR
-    A[Initial Position] → B[Challenge Phase]
-    B → C[Strengthen Phase] 
-    C → D[Synthesis Phase]
-    D → E[Verification]
-    E → F{Robust Solution?}
-    F →|No| B
-    F →|Yes| G[Implementation]
-```
+![image](https://github.com/user-attachments/assets/f2db9d8d-d11f-4fc5-9793-d6789f34c079)
 
 **Example**: A product manager using meta-dialectical analysis to decide between complete product redesign vs. incremental improvements, exploring user disruption concerns vs. competitive positioning needs to reach a dual-interface strategy.
 
