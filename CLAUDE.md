@@ -8,13 +8,27 @@ This repository contains a comprehensive framework for prompt engineering across
 
 The repository is organized into several key directories:
 
-- **docs/**: Core knowledge organized in progressive complexity
+- **methodologies/**: PRIMARY - Problem-solving methodologies organized by complexity
+  - **meta-dialectical/**: Crown jewel methodology for complex strategic decisions
+  - **comprehensive-collection/**: Complete toolkit of 16 methodologies from simple to sophisticated
+  - **selection-guide/**: Tools for choosing appropriate methodologies
+- **prompt-engineering/**: Traditional prompt engineering framework
   - **fundamentals/**: Foundation concepts (mental models, limitations, context management)
   - **prompt_patterns/**: General techniques (chain of thought, few-shot, role prompting)
   - **domains/**: Field-specific applications (coding, writing, data analysis, education)
   - **advanced/**: Complex implementations (RAG, multimodal, system design)
-- **examples/**: Practical implementations of concepts
-- **templates/**: Reusable prompt structures
+- **examples/**: Practical implementations organized by methodology type
+  - **case-studies/**: Real-world applications split by methodology vs prompt-engineering
+  - **workflows/**: End-to-end processes for different problem types
+  - **demonstrations/**: Step-by-step walkthroughs
+- **templates/**: Reusable structures organized by approach
+  - **problem-solving/**: Templates for methodological analysis
+  - **prompt-engineering/**: Domain-specific prompt templates
+  - **hybrid/**: Combined methodology + AI templates
+- **guides/**: Learning and tutorial content
+- **tools/**: Assessment and evaluation utilities
+- **workflows/**: Process workflows for different decision types
+- **resources/**: Supporting materials and community content
 - **src/**: Functional code examples and maintenance documentation
   - **system_prompts/**: Ready-to-use system prompts
   - **maintenance_note.md**: High-density maintenance guidelines
@@ -24,8 +38,15 @@ Additionally, the repository root contains high-density reference files:
 
 ### Knowledge Hierarchy
 
-The repository follows a progression from foundational to specialized knowledge:
+The repository follows a dual-track progression:
 
+**Problem-Solving Track:**
+1. **Simple methodologies** (Five Whys, Pareto) for tactical problems
+2. **Mid-level methodologies** (Root Cause Analysis, Systems Mapping) for system improvements  
+3. **Deep structure methodologies** (Meta-Dialectical, Critical Systems Heuristics) for strategic decisions
+4. **AI-enhanced collaboration** patterns for all methodology levels
+
+**Prompt Engineering Track:**
 1. **Fundamental concepts** provide the base understanding
 2. **Prompt patterns** build on fundamentals with general techniques
 3. **Domain applications** apply patterns to specific fields

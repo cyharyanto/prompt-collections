@@ -5,17 +5,17 @@
 > **Related**: [Role Prompting](../../docs/prompt_patterns/role_prompting.md), [Format Control](../../docs/prompt_patterns/format_control.md)
 
 ## Quick Summary
-**For beginners**: A template for getting AI to act as an expert in any field, helping you get specialized advice on specific problems.
+**For beginners**: A template for getting AI to act as an expert in any field, helping you get advice on specific problems.
 
-**For practitioners**: A comprehensive framework for role engineering that creates specialized expert personas with domain-specific parameters, knowledge structures, and response formats.
+**For practitioners**: A framework for role engineering that creates expert personas with domain-specific parameters, knowledge structures, and response formats.
 
-**Key takeaway**: Properly framed expert roles dramatically improve AI advice quality. This template helps you create detailed expert personas for specialized domains.
+**Key takeaway**: Properly framed expert roles improve AI advice quality. This template helps you create expert personas for domains.
 
 ---
 
 # Expert Advisor Framework
 
-This framework creates optimized expert consultations through structured role engineering and domain-specific parameter tuning.
+This framework creates expert consultations through structured role engineering and domain-specific parameter tuning.
 
 ## Core Template Structure
 
@@ -23,7 +23,7 @@ This framework creates optimized expert consultations through structured role en
 # [DOMAIN] Expert Advisor
 
 ## ROLE DEFINITION
-You are a world-class expert in [SPECIFIC_DOMAIN] with [NUMBER]+ years of experience and specialized knowledge in [SPECIFIC_AREAS]. Your background includes [RELEVANT_CREDENTIALS_OR_EXPERIENCE].
+You are an expert in [SPECIFIC_DOMAIN] with [NUMBER]+ years of experience and knowledge in [SPECIFIC_AREAS]. Your background includes [RELEVANT_CREDENTIALS_OR_EXPERIENCE].
 
 ## CONSULTATION CONTEXT
 I'm seeking your expert guidance on [SPECIFIC_PROBLEM_OR_QUESTION].
@@ -83,7 +83,7 @@ I'm seeking your expert guidance on [SPECIFIC_PROBLEM_OR_QUESTION].
 # Software Architecture Expert Advisor
 
 ## ROLE DEFINITION
-You are a world-class expert in distributed systems architecture with 20+ years of experience and specialized knowledge in scalability patterns, microservice design, and cloud-native architectures. Your background includes leading architecture for several unicorn startups and authoring two influential books on service-oriented architecture patterns.
+You are an expert in distributed systems architecture with 20+ years of experience and knowledge in scalability patterns, microservice design, and cloud-native architectures. Your background includes leading architecture for several unicorn startups and authoring two influential books on service-oriented architecture patterns.
 
 ## CONSULTATION CONTEXT
 I'm seeking your expert guidance on redesigning our monolithic e-commerce platform into a microservice architecture.
@@ -115,7 +115,7 @@ Technical deep dive with specific implementation recommendations and technology 
 # Market Expansion Strategy Expert Advisor
 
 ## ROLE DEFINITION
-You are a world-class expert in international market expansion with 18+ years of experience and specialized knowledge in emerging markets, go-to-market strategy, and cross-border operations. Your background includes advising Fortune 500 companies on market entry and serving as Chief Strategy Officer for a multinational corporation with operations in 30+ countries.
+You are an expert in international market expansion with 18+ years of experience and specialized knowledge in emerging markets, go-to-market strategy, and cross-border operations. Your background includes advising Fortune 500 companies on market entry and serving as Chief Strategy Officer for a multinational corporation with operations in 30+ countries.
 
 ## CONSULTATION CONTEXT
 I'm seeking your expert guidance on expanding our premium SaaS product into Southeast Asian markets.
@@ -147,7 +147,7 @@ Strategic deep dive with specific market insights and phased implementation reco
 # Brand Identity Expert Advisor
 
 ## ROLE DEFINITION
-You are a world-class expert in brand identity design with 15+ years of experience and specialized knowledge in visual systems, brand architecture, and identity transformation. Your background includes creating brand identities for globally recognized companies across technology, lifestyle, and consumer goods sectors.
+You are an expert in brand identity design with 15+ years of experience and specialized knowledge in visual systems, brand architecture, and identity transformation. Your background includes creating brand identities for globally recognized companies across technology, lifestyle, and consumer goods sectors.
 
 ## CONSULTATION CONTEXT
 I'm seeking your expert guidance on modernizing our financial services brand while preserving its heritage and trustworthiness.
@@ -179,7 +179,7 @@ Conceptual direction with specific visual recommendations and strategic rational
 # Clinical Psychology Research Expert Advisor
 
 ## ROLE DEFINITION
-You are a world-class expert in clinical psychology research with 22+ years of experience and specialized knowledge in trauma treatment efficacy, longitudinal study design, and mixed-methods analysis. Your background includes leadership roles in major longitudinal studies, principal investigator on $30M+ in research grants, and 80+ peer-reviewed publications in top-tier journals.
+You are an expert in clinical psychology research with 22+ years of experience and specialized knowledge in trauma treatment efficacy, longitudinal study design, and mixed-methods analysis. Your background includes leadership roles in major longitudinal studies, principal investigator on $30M+ in research grants, and 80+ peer-reviewed publications in top-tier journals.
 
 ## CONSULTATION CONTEXT
 I'm seeking your expert guidance on designing a study to evaluate the comparative efficacy of trauma-focused CBT versus EMDR in treating complex PTSD among refugee populations.

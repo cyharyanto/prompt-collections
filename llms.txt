@@ -1,15 +1,34 @@
-# Prompt Engineering Repository Navigation Index
+# Advanced Problem-Solving & AI Collaboration Repository Navigation Index
 
 ## Repository Architecture
-- **docs/fundamentals/**: mental_models.md→limitations.md→context_management.md→evaluation.md
-- **docs/prompt_patterns/**: chain_of_thought.md→few_shot.md→role_prompting.md→format_control.md
-- **docs/domains/**: coding/{methodology.md,tailoring.md}|writing/{content_creation.md}|data_analysis/{data_exploration.md}|education/{learning_materials.md}
-- **docs/advanced/**: rag.md|multimodal.md|system_design.md|ethics.md
-- **examples/**: prompts/{coding,writing,data_analysis,education}|workflows/research_assistant.md|case_studies/code_debugging.md
-- **templates/**: general/expert_advisor.md|domain/{coding/code_review.md,writing/content_brief.md}
+**PRIMARY TRACK - PROBLEM-SOLVING METHODOLOGIES:**
+- **methodologies/meta-dialectical/**: framework.md(crown_jewel_strategic_decisions)|examples/|templates/|ai-integration.md
+- **methodologies/comprehensive-collection/**: collection.md(16_methodologies)|surface-level/|mid-level/|deep-structure/|ai-enhancement/
+- **methodologies/selection-guide/**: decision-tree.md|complexity-matrix.md|quick-reference.md
+
+**SECONDARY TRACK - PROMPT ENGINEERING:**
+- **prompt-engineering/fundamentals/**: mental_models.md→limitations.md→context_management.md→evaluation.md
+- **prompt-engineering/prompt_patterns/**: chain_of_thought.md→few_shot.md→role_prompting.md→format_control.md
+- **prompt-engineering/domains/**: coding/{methodology.md,tailoring.md}|writing/{content_creation.md}|data_analysis/{data_exploration.md}|education/{learning_materials.md}
+- **prompt-engineering/advanced/**: rag.md|multimodal.md|system_design.md|ethics.md
+
+**SUPPORTING INFRASTRUCTURE:**
+- **examples/**: case-studies/{methodology-applications,prompt-engineering,hybrid-approaches}|workflows/{problem-solving,development,analysis}|demonstrations/
+- **templates/**: problem-solving/{meta-dialectical,surface-level,mid-level,deep-structure}|prompt-engineering/{coding,writing,data-analysis,general}|hybrid/
+- **guides/**: getting-started/|intermediate/|advanced/|reference/
+- **tools/**: assessment/|templates/|evaluation/
+- **workflows/**: decision-making/|problem-solving/|ai-collaboration/
+- **resources/**: presentations/|research/|bibliography/|community/
 - **src/**: system_prompts/{code_assistant.txt,code_assistant_formal.txt}|evaluation/README.md|integrations/README.md
 
 ## Core Concepts Map
+**PROBLEM-SOLVING METHODOLOGIES:**
+- **Meta-Dialectical Process**: thesis→devil's_advocate→steelman→synthesis→verification→projection_testing
+- **Methodology Complexity Levels**: surface(five_whys,pareto,fishbone)|mid-level(root_cause,systems_mapping,triz)|deep(dialectical,double_loop,critical_systems)
+- **AI Integration Patterns**: human_direction+ai_exploration+structured_critique+human_synthesis+collaborative_documentation
+- **Selection Criteria**: problem_complexity+time_available+stakeholder_diversity+decision_importance+uncertainty_level
+
+**PROMPT ENGINEERING FOUNDATIONS:**
 - **Mental Models**: token_processing>attention_mechanisms>context_windows>pattern_recognition>embedding_spaces
 - **Prompt Patterns**: chain_of_thought(reasoning_decomposition)|few_shot(example_learning)|role_prompting(expertise_framing)|format_control(output_structuring)
 - **Context Management**: window_allocation(5-15%_instruction+60-80%_content+10-25%_support+5-10%_guidance)|chunking_optimization|token_efficiency|retrieval_augmentation
@@ -95,12 +114,25 @@ Therefore, the solution is [ANSWER].
 - **Low Frequency**: core_prompt_patterns|mental_models|fundamental_reasoning_approaches
 
 ## Navigation Shortcuts
-- **Software Development**: docs/domains/coding/methodology.md
-- **Content Creation**: docs/domains/writing/content_creation.md
-- **Data Analysis**: docs/domains/data_analysis/data_exploration.md
-- **RAG Systems**: docs/advanced/rag.md
-- **Prompt Templates**: templates/
-- **Debugging Example**: examples/case_studies/code_debugging.md
+**PROBLEM-SOLVING ENTRY POINTS:**
+- **Complex Strategic Decisions**: methodologies/meta-dialectical/framework.md
+- **Quick Tactical Problems**: methodologies/comprehensive-collection/collection.md#surface-level
+- **System/Process Issues**: methodologies/comprehensive-collection/collection.md#mid-level
+- **Method Selection**: methodologies/selection-guide/
+- **AI-Enhanced Analysis**: methodologies/comprehensive-collection/collection.md#ai-integration
+
+**PROMPT ENGINEERING ENTRY POINTS:**
+- **Software Development**: prompt-engineering/domains/coding/methodology.md
+- **Content Creation**: prompt-engineering/domains/writing/content_creation.md
+- **Data Analysis**: prompt-engineering/domains/data_analysis/data_exploration.md
+- **RAG Systems**: prompt-engineering/advanced/rag.md
+- **Prompt Templates**: templates/prompt-engineering/
+- **Debugging Example**: examples/case_studies/prompt-engineering/code_debugging.md
+
+**HYBRID APPROACHES:**
+- **Problem-Solving + AI**: templates/hybrid/
+- **Methodology Examples**: examples/case-studies/methodology-applications/
+- **AI Collaboration Workflows**: workflows/ai-collaboration/
 
 ## Optimization Quick Reference
 - Token reduction: Remove redundancy, use structured formats, compress examples
